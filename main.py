@@ -28,11 +28,15 @@ print(i)  #without brackets because int
 
 # 4.
 hello = "Hello, world!"
+print(hello)
+print(len(hello))
+print(hello[0])
+
 
 
 
 # 5.
 name = "John"
 age = "30"
-text = "Hello, my name is %s, I'm %s"
-print(text %(name,age))
+text = "Hello, my name is {}, I'm {}"
+print(text.format(name,age))
