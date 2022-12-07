@@ -47,3 +47,17 @@ print(text.format(name,age))
 
 
 #OPERATORSOPERATORSOPERATORSOPERATORSOPERATORSOPERATORSOPERATORSOPERATORSOPERATORSOPERATORSOPERATORS
+# 1.
+x = 5
+y = 7
+x = x+y
+print(x)
+
+# 2.
+ten = 10
+tenS = "10"
+tenO = ten/0
+tenOO = tenS/0
+print(tenO)    #ZeroDivisionError: division by zero - division is prohibited
+print(tenOO)   #TypeError: unsupported operand type(s) for /: 'str' and 'int' - different types
+
