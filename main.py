@@ -1,4 +1,4 @@
-
+#VARIABLESVARIABLESVARIABLESVARIABLESVARIABLESVARIABLESVARIABLESVARIABLESVARIABLESVARIABLES
 # 1.variables
 a = "12"
 b = 13
@@ -6,7 +6,6 @@ c = 14.0
 print(a)
 print(b)
 print(c)
-
 
 # 2.casting
 d = int(5)
@@ -16,8 +15,7 @@ print(d/2)
 print(e/2)
 print(int(f)/2)    #casting string to int to be divided
 
-
-# 3.
+# 3.casting
 g =int(5)
 h =int(8.0)
 i =int("7")
@@ -25,18 +23,27 @@ print(g)
 print(h)  #without 0 because int
 print(i)  #without brackets because int
 
-
-# 4.
+# 4. strings
 hello = "Hello, world!"
 print(hello)
 print(len(hello))
 print(hello[0])
+#Assign last 5 characters of the string to the new variable and print.
+helloNew = hello[-5:]
+print(helloNew)
 
-
-
+print(hello.upper())
+print(hello.count("o"))
+#Split string into two separate words and print each separately
+helloDivided = hello.split()
+print(helloDivided[0])
+print(helloDivided[1])
 
 # 5.
 name = "John"
 age = "30"
 text = "Hello, my name is {}, I'm {}"
 print(text.format(name,age))
+
+
+#OPERATORSOPERATORSOPERATORSOPERATORSOPERATORSOPERATORSOPERATORSOPERATORSOPERATORSOPERATORSOPERATORS
