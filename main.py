@@ -61,3 +61,30 @@ tenOO = tenS/0
 print(tenO)    #ZeroDivisionError: division by zero - division is prohibited
 print(tenOO)   #TypeError: unsupported operand type(s) for /: 'str' and 'int' - different types
 
+# 3.
+
+
+# 4.
+x1 = 5
+x1 += 3
+print(x)
+
+# 5.
+
+
+#CONDITIONALSCONDITIONALSCONDITIONALSCONDITIONALSCONDITIONALSCONDITIONALSCONDITIONALSCONDITIONALS
+# 1.
+int1 = 44
+int2 = 33
+if int1>int2:
+    print("Yes this is True")
+
+# 2.
+x2 = 551
+y2 = 55
+if x2>y2:
+    print("x is bigger than y")
+elif x2==y2:
+    print("x and y are equal")
+elif x2<y2:
+    print("y is bigger than x")
