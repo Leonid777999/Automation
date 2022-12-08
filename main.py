@@ -93,3 +93,10 @@ elif x2<y2:
 world = "The world is mine"
 if "mine" in world:
     print("Yes this is True")
+
+#COLLECTIONSCOLLECTIONSCOLLECTIONSCOLLECTIONSCOLLECTIONSCOLLECTIONSCOLLECTIONSCOLLECTIONSCOLLECTIONS
+# 1.
+difList = ["string", 5, 10.5, False, True]
+print(difList)
+print(difList[1:-1])
+print(len(difList))
