@@ -29,7 +29,7 @@ print(hello)
 print(len(hello))
 print(hello[0])
 #Assign last 5 characters of the string to the new variable and print.
-helloNew = hello[-5:]
+helloNew = hello[8:]
 print(helloNew)
 
 print(hello.upper())
@@ -88,3 +88,8 @@ elif x2==y2:
     print("x and y are equal")
 elif x2<y2:
     print("y is bigger than x")
+
+# 3.
+world = "The world is mine"
+if "mine" in world:
+    print("Yes this is True")
