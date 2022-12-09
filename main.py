@@ -177,6 +177,19 @@ print(tuple)
 print(tuple[-4:])
 print(tuple.index("third"))
 
+anotherTuple = ("next", "super", "best")
+print(tuple+anotherTuple)
+
+(one, two, three, *four) = tuple
+print(one)
+print(two)
+print(three)
+print(four)
+
+#LOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPS
+# 1.
+
+
 
 
 
