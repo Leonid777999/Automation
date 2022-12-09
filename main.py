@@ -113,7 +113,7 @@ if "mine" in world:
     print("Yes this is True")
 
 #COLLECTIONSCOLLECTIONSCOLLECTIONSCOLLECTIONSCOLLECTIONSCOLLECTIONSCOLLECTIONSCOLLECTIONSCOLLECTIONS
-# 1.
+# 1. List
 difList = ["string", 5, 10.5, False, True]
 print(difList)
 print(difList[1:-1])
@@ -137,7 +137,7 @@ print(difList)
 difList.pop(2)
 print(difList)
 
-# 2.
+# 2. List
 firstList = ["first", 2, 12.23]
 secondList = [False, True]
 
@@ -147,7 +147,7 @@ print(firstList)
 firstList.extend(secondList)  #second list was added to the end like another elements
 print(firstList)
 
-# 3.
+# 3. Dictionary
 diction = {
     "name":"John",
     "surename":"Deere",
@@ -165,4 +165,16 @@ print(diction["name"], diction["maritalStatus"])
 
 diction["children"] = ["Paul", "Jack", "Freddie"]
 print(diction["name"], diction["children"])
+
+del diction["age"]  # 1st method
+
+diction.pop("age")  # 2nd method
+print(diction)
+
+# 4. Tuples
+tuple = ("first","second", "third", 1, 2, 3, True, False, 10.1, 11.2, 12.3)
+print(tuple)
+print(tuple[-3:])
+
+
 
