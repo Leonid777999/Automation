@@ -120,4 +120,11 @@ difList.pop(2)
 print(difList)
 
 # 2.
+firstList = ["first", 2, 12.23]
+secondList = [False, True]
 
+firstList.append(secondList)  #second list was inserted  into first like separate list
+print(firstList)
+
+firstList.extend(secondList)  #second list was added to the end like another elements
+print(firstList)
