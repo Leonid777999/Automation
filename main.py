@@ -62,6 +62,25 @@ print(tenO)    #ZeroDivisionError: division by zero - division is prohibited
 print(tenOO)   #TypeError: unsupported operand type(s) for /: 'str' and 'int' - different types
 
 # 3.
+j = int(5)
+k = float(5.0)
+l = str("5")
+print(j>k) #False because j==k
+print(j>l) #TypeError: '>' not supported between instances of 'int' and 'str'
+print(j<k) #False because j==k
+print(j==k) #True because j==k
+print(j==l) #False because float != string
+print(k==l) #False because float != int
+print(j!=k) #False because j==k
+print(j!=l) #True because int != string
+print(k!=l) #False because string != int
+
+# 4.
+x1 = 5
+x1 += 3
+print(x)
+
+# 5.
 onion = "Onion"
 tomato = "Tomato"
 print(onion>tomato) #quantity of the symbols is bigger in "tomato", so False
@@ -70,15 +89,6 @@ print(onion==tomato) #quantity of the symbols is bigger in "tomato", so false
 print(onion!=tomato) #quantity of the symbols is bigger in "tomato", so false
 vegetables = onion+tomato
 print(vegetables)
-
-
-# 4.
-x1 = 5
-x1 += 3
-print(x)
-
-# 5.
-
 
 #CONDITIONALSCONDITIONALSCONDITIONALSCONDITIONALSCONDITIONALSCONDITIONALSCONDITIONALSCONDITIONALS
 # 1.
@@ -136,3 +146,23 @@ print(firstList)
 
 firstList.extend(secondList)  #second list was added to the end like another elements
 print(firstList)
+
+# 3.
+diction = {
+    "name":"John",
+    "surename":"Deere",
+    "age": 25
+}
+print(diction["name"],diction["age"])
+print(diction.keys())
+print(diction.values())
+
+diction["age"] = 33
+print(diction.values())
+
+diction["maritalStatus"] = "married"
+print(diction["name"], diction["maritalStatus"])
+
+diction["children"] = ["Paul", "Jack", "Freddie"]
+print(diction["name"], diction["children"])
+
