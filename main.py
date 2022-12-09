@@ -100,6 +100,24 @@ difList = ["string", 5, 10.5, False, True]
 print(difList)
 print(difList[1:-1])
 print(len(difList))
+
 difList.append("added")
 print(difList)
+
+difList.insert(1,123)
+print(difList)
+
+difList[2] = "changed"
+print(difList)
+
+difList[2:4] = ["inserted"]
+print(difList)
+
+difList.remove("inserted")
+print(difList)
+
+difList.pop(2)
+print(difList)
+
+# 2.
 
