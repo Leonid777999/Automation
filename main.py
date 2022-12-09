@@ -62,6 +62,14 @@ print(tenO)    #ZeroDivisionError: division by zero - division is prohibited
 print(tenOO)   #TypeError: unsupported operand type(s) for /: 'str' and 'int' - different types
 
 # 3.
+onion = "Onion"
+tomato = "Tomato"
+print(onion>tomato) #quantity of the symbols is bigger in "tomato", so False
+print(onion<tomato) #quantity of the symbols is bigger in "tomato", so True
+print(onion==tomato) #quantity of the symbols is bigger in "tomato", so false
+print(onion!=tomato) #quantity of the symbols is bigger in "tomato", so false
+vegetables = onion+tomato
+print(vegetables)
 
 
 # 4.
