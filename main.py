@@ -174,7 +174,10 @@ print(diction)
 # 4. Tuples
 tuple = ("first","second", "third", 1, 2, 3, True, False, 10.1, 11.2, 12.3)
 print(tuple)
-print(tuple[-3:])
+print(tuple[-4:])
+print(tuple.index("third"))
+
+
 
 
 
