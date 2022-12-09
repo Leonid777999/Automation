@@ -100,3 +100,6 @@ difList = ["string", 5, 10.5, False, True]
 print(difList)
 print(difList[1:-1])
 print(len(difList))
+difList.append("added")
+print(difList)
+
