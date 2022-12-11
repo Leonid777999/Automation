@@ -238,3 +238,18 @@ litPrint2()
 def privet():
     print("Hello, world")
 privet()
+
+# 2.
+def nameSurname(name,surname):
+    text1 ="Hello, my name is {} {}"
+    print(text1.format(name, surname))
+
+nameSurname("Peter", "Jackson")
+
+nameSurname(surname="Peterson", name="Jack")
+
+# 3.
+def models(*models):
+    print("The first car models is",models[0])
+
+models(1,2,3,4,5,6,7,8,9)
