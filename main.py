@@ -188,9 +188,32 @@ print(four)
 
 #LOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPSLOOPS
 # 1.
+loopList = ["orange", "apple", "banana", "cherry"]
+for x in loopList:
+    print(x)
 
+for x in loopList:
+    if x=="apple":
+        print(x)
 
+for x in loopList:
+    print(x)
+    print(len(x))
 
+# 2.
+for x in range(2,100):
+    print(x)
 
+# 3.
+m = 0
+while m < 16:
+    print(m)
+    m = m+1
+
+# 4.
+n = 3
+while n < 34:
+    print(n)
+    n = n+1
 
 
