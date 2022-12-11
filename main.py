@@ -253,3 +253,24 @@ def models(*models):
     print("The first car models is",models[0])
 
 models(1,2,3,4,5,6,7,8,9)
+
+# 4.
+def person(**personal):
+    print(personal["age"],personal["name"])
+
+person(surname="Doe", age=45, cat=True, name="John")
+
+# 5.
+
+
+
+# 6.
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+factorial(5)
+
+
