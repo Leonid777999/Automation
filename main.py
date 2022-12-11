@@ -216,4 +216,25 @@ while n < 34:
     print(n)
     n = n+1
 
+# 5.
+loopListList = ["orange", "apple", "banana", "cherry"]
+def litPrint():
+    for x in loopListList:
+        print(x)
+        if x=="banana":
+            break
+litPrint()
 
+def litPrint2():
+    for x in loopListList:
+        if x!="banana":
+            print(x)
+
+litPrint2()
+
+
+#FUNCTIONSFUNCTIONSFUNCTIONSFUNCTIONSFUNCTIONSFUNCTIONSFUNCTIONSFUNCTIONSFUNCTIONSFUNCTIONSFUNCTIONS
+# 1.
+def privet():
+    print("Hello, world")
+privet()
