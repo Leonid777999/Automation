@@ -3,9 +3,9 @@
 a = "12"
 b = 13
 c = 14.0
-print(a is b)
-print(b is c)
-print(b is c)
+print(a is b) #false because is not equal
+print(b is c) #false because is not equal
+print(b is c) #false because is not equal
 
 # 2.casting
 d = int(5)
