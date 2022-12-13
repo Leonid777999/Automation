@@ -3,9 +3,9 @@
 a = "12"
 b = 13
 c = 14.0
-print(a)
-print(b)
-print(c)
+print(a is b)
+print(b is c)
+print(b is c)
 
 # 2.casting
 d = int(5)
