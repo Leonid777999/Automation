@@ -261,7 +261,10 @@ def person(**personal):
 person(surname="Doe", age=45, cat=True, name="John")
 
 # 5.
+def print_person_info(name, surname, maritalStatus="unknown",*age):
+        print(name,surname,age,maritalStatus)
 
+print_person_info("Bob","Dylan","married",55)
 
 
 # 6.
@@ -271,6 +274,6 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
 
-factorial(5)
+factorial(6)
 
 
