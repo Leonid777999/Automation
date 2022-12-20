@@ -305,7 +305,9 @@ print(day(today))
 double_list =list(map(lambda x: x*2,l_list))
 print(double_list)
 
-
+# 5.
+filter_list = list(filter(lambda p:p%2==0,l_list))
+print(filter_list)
 
 #COMPREHENSIONCOMPREHENSIONCOMPREHENSIONCOMPREHENSIONCOMPREHENSIONCOMPREHENSIONCOMPREHENSIONCOMPREHENSION
 
@@ -329,5 +331,9 @@ print(divisible_list)
 
 # 4.
 name_list = ["Jack", "john", "Paul", "sean"]
+upper_list = [x for x in name_list if x.islower()==False]
+print(upper_list)
 
-
+# 5.
+divnumbers_list = [11, 23, 44, 68, 224, 666, 663, 5555]
+division_list = [x for x in divnumbers_list if sum(x)/x[0]==x]
