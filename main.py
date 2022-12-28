@@ -337,3 +337,19 @@ print(upper_list)
 # 5.
 divnumbers_list = [11, 23, 44, 68, 224, 666, 663, 5555]
 division_list = [x for x in divnumbers_list if sum(x)/x[0]==x]
+
+#FILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILES
+# 1.
+txt = open("createtxt.txt","a")
+insert_text = ("4eboor3k s pov1dl0m na privokzalno1 ploshad1")
+txt.write(insert_text)
+
+txt = open("createtxt.txt","r")
+print(txt.read())
+
+# 2.
+txt_path = "createtxt.txt"
+txt_object = open(txt_path,"r")
+txt_list = txt_object.read().split()
+print(max(txt_list, key=len))
+
