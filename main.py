@@ -422,4 +422,14 @@ with open(second_combined_text,"r") as combined_text:
     print(combined_text.read())
 
 
+#EXCEPTION&DEBUGEXCEPTION&DEBUGEXCEPTION&DEBUGEXCEPTION&DEBUGEXCEPTION&DEBUGEXCEPTION&DEBUGEXCEPTION&DEBUGEXCEPTION&DEBUG
+# 1.
+try:
+    div_zero = int(input())
+    div_zero_act = div_zero/0
+    print(div_zero)
+except:
+    print("Something went wrong!")
+finally:
+    print("Final")
 
