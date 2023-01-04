@@ -433,3 +433,10 @@ except:
 finally:
     print("Final")
 
+# 2.
+div_zero = int(input())
+div_zero2 = int(input())
+if div_zero2 == 0:
+    raise Exception("You can`t divide by zero")
+div_zero_act = div_zero/div_zero2
+print(int(div_zero_act))
