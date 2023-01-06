@@ -55,12 +55,12 @@ x = x+y
 print(x)
 
 # 2.
-ten = 10
-tenS = "10"
-tenO = ten/0
-tenOO = tenS/0
-print(tenO)    #ZeroDivisionError: division by zero - division is prohibited
-print(tenOO)   #TypeError: unsupported operand type(s) for /: 'str' and 'int' - different types
+# ten = 10
+# tenS = "10"
+# #tenO = ten/0
+# #tenOO = tenS/0
+# print(tenO)    #ZeroDivisionError: division by zero - division is prohibited
+# print(tenOO)   #TypeError: unsupported operand type(s) for /: 'str' and 'int' - different types
 
 # 3.
 j = int(5)
@@ -336,7 +336,7 @@ print(upper_list)
 
 # 5.
 divnumbers_list = [11, 23, 44, 68, 224, 666, 663, 5555]
-division_list = [x for x in divnumbers_list if sum(x)/x[0]==x]
+division_list = [x for x in divnumbers_list if ]               ## ????????
 
 #FILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILES
 # 1.
