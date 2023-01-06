@@ -24,9 +24,11 @@ upper_list = [x for x in name_list if x.islower()==False]
 print(upper_list)
 
 # 5.
-divnumbers_list = [11, 23, 44, 68, 224, 666, 663, 5555]
-division_list = [x for x in divnumbers]                   ###?????????????
+divnumbers_list = range(5,17)
+division_list = [x for x in divnumbers_list if not any(map(lambda y: int(y) == 0 or x % int(y) != 0, str(x)))]
 print(division_list)
+
+
 
 
 
