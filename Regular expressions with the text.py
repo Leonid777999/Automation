@@ -4,12 +4,15 @@ An IP address serves two main functions: network interface identification and lo
 Internet Protocol version 4 (IPv4) defines an IP address as a 32-bit number.[2] 
 However, because of the growth of the Internet and the depletion of available IPv4 addresses,
  a new version of IP (IPv6), using 128 bits for the IP address, was standardized in 1998.[3][4][5] 
- IPv6 deployment has been ongoing since the mid-2000s.'''
+ IPv6 deployment has been ongoing since the mid-2000s'''
 
 import re
 
 reg_digit = re.findall(r"[\d]", reg_text)
 print(reg_digit)
 
-reg_ip = re.findall(r"()", reg_text)
+reg_ip = re.findall(r"IP\w+", reg_text)
 print(reg_ip)
+
+reg_whole = re.findall(r"128\w*", reg_text)
+print(reg_whole)
