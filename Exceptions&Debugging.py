@@ -4,7 +4,7 @@ try:
     div_zero = int(input())
     div_zero_act = div_zero/0
     print(div_zero)
-except:
+except ZeroDivisionError:
     print("Something went wrong!")
 finally:
     print("Final")

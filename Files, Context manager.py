@@ -70,7 +70,7 @@ with open(main_source_text,"r") as source_text, open(second_combined_text,"r") a
     source_lines = source_text.readlines()
     combined_lines = combined_text.readlines()
 
-with open(main_source_text, "r") as source_text, open(second_combined_text, "w") as combined_text:
+with open(second_combined_text, "w") as combined_text:
     for x,y in zip(combined_lines, source_lines):
         combined_text.writelines(f"{x.strip()} {y.strip()}\n")
 

@@ -7,7 +7,7 @@ negative_list = [int(x) for x in numbers_list if x<0]
 print(negative_list)
 
 # 2.
-string_list = ["string", "mediumstring", 'longstring', "hugestring"]
+string_list = ["string", "mediumstring", "longstring", "hugestring"]
 lenght_list = [x for x in string_list if len(x) == 10]
 
 print(lenght_list)
@@ -20,7 +20,7 @@ print(divisible_list)
 
 # 4.
 name_list = ["Jack", "john", "Paul", "sean"]
-upper_list = [x for x in name_list if x.islower()==False]
+upper_list = [x for x in name_list if x[0].isupper()]
 print(upper_list)
 
 # 5.
