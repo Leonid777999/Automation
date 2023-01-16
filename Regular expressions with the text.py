@@ -14,5 +14,10 @@ print(reg_digit)
 reg_ip = re.findall(r"IP\w+", reg_text)
 print(reg_ip)
 
-reg_whole = re.findall(r"128\w*", reg_text)
+reg_whole = re.findall(r"128 bits(.+)", reg_text, re.DOTALL)
 print(reg_whole)
+
+reg_address = re.findall(r"\d{3}.\d{3}.\d{1}.\d{3}", reg_text)
+print(reg_address)
+
+reg_cut =
