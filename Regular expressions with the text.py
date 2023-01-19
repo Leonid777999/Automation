@@ -20,4 +20,5 @@ print(reg_whole)
 reg_address = re.findall(r"\d{3}.\d{3}.\d{1}.\d{3}", reg_text)
 print(reg_address)
 
-reg_cut =
+reg_clean = re. sub(r"\d.|IPv", "", reg_text)
+print(reg_clean)
