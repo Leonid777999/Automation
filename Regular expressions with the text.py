@@ -23,3 +23,5 @@ print(reg_address)
 reg_clean = re. sub(r"\d.|IPv", "", reg_text)
 print(reg_clean)
 
+reg_clean11 = re. sub(r"", "", reg_text)
+print(reg_clean11)
