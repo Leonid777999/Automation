@@ -11,7 +11,21 @@ class Test:
     def __str__(self):
         return f"({self.url, self.login, self.password})"
 
+
+    def choice(self):
+        choice = input("Your choice:")
+        ad = 5
+        if choice == Test.type_m:                      #???????????
+            print("You are welcome")
+        else:
+            print("Ask another team")
+
+
+
+#4.
 aa = Test("www.test.com", "entry", 123)
 
 print(aa)
+
+aa.choice()
 
