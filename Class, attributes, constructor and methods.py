@@ -43,3 +43,13 @@ test_object.new_login()
 
 test_object1.new_password(456)
 
+#5
+setattr(test_object,"login","new entry")
+getattr(test_object,"login")
+
+#6
+setattr(test_object1,"captcha","true")
+getattr(test_object1,"captcha")
+print(test_object1)     #??? how to print current object with the added attribute
+
+
