@@ -1,7 +1,6 @@
 # 1.
 class Test:
     type_m = "mobile application"
-    type_w = "web application"
 
     def __init__(self, url, login, password):
         self.url = url
@@ -29,6 +28,8 @@ class Test:
         return new_password
 
 
+
+
 #4.
 test_object = Test("www.test.com", "entry", 123)
 test_object1 = Test("www.test111", "comeon", 234)
@@ -41,7 +42,7 @@ test_object.make_choice()
 
 test_object.new_login()
 
-test_object1.new_password(456)
+test_object1.new_password(459)
 
 #5
 setattr(test_object,"login","new entry")
