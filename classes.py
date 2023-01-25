@@ -61,4 +61,3 @@ getattr(test_object1,"captcha")
 
 print(test_object1)     #??? how to print current object with the added attribute without key
 
-test_object.prints()
