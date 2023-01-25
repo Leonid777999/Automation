@@ -7,8 +7,8 @@ class Test:
         self.login = login
         self.password = password
 #2.
-    def __str__(self):
-        return f"({self.url, self.login, self.password})"
+    def __str__(cls):
+        return f"({cls.url, cls.login, cls.password})"
 
 #3.
     def make_choice(self):
@@ -37,6 +37,8 @@ test_object1 = Test("www.test111", "comeon", 234)
 # check for the second task
 print(test_object)
 
+
+
 # check for the third task
 test_object.make_choice()
 
@@ -50,14 +52,13 @@ test_object.login = "new login"
 
 setattr(test_object,"login","new entry")
 
-
-
 #6
 test_object.new = "new variable"
+print(test_object.__dict__)
 
 setattr(test_object1,"captcha","true")
 getattr(test_object1,"captcha")
 
-print(test_object1)     #??? how to print current object with the added attribute
+print(test_object1)     #??? how to print current object with the added attribute without key
 
-
+test_object.prints()
