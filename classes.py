@@ -1,6 +1,6 @@
 # 1.
 class Test:
-    type_m = "mobile application"
+    type = "mobile application"
 
     def __init__(self, url, login, password):
         self.url = url
