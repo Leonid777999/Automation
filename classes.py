@@ -19,7 +19,7 @@ class Test:
             print("Ask another team")
 
     def new_login(self):
-        new_login = str(self.login) + str(8)
+        new_login = str(self.login) + "8"
         return new_login
 
     def new_password(self,add):
@@ -60,5 +60,6 @@ print(test_object.__dict__)
 setattr(test_object1,"captcha","true")
 getattr(test_object1,"captcha")
 
-test_object.print_new()     #??? how to print current object with the added attribute without key
+test_object.print_new()
+test_object.real_print()
 
