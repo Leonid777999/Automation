@@ -26,7 +26,8 @@ second.first_protected
 
 first = First("protected", "private")
 
-first
+first._first_protected = "protected1"
+first._First__first_private = "private1"
 
 first._first_protected
 first._First__first_private
