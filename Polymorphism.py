@@ -12,7 +12,7 @@ class First:
 class Second:
     def __init__(self,url1, login1, password1):
         self.url1 = url1
-        self.login1 = login1
+        self.login1 = int(login1)
         self.password1 = password1
 
 
@@ -31,4 +31,16 @@ class Third:
     def new_login(self):
         print (f"({self.url2, self.login2, self.password2}")
 
+#2 2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+def polymorh():
+    print(first.new_login())
+    print(second.new_login(5))
+    third.new_login()
 
+#3 3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333
+
+first = First("url","login","password")
+second = Second("url1",10,"password1")
+third = Third("url2", "login2", "password2")
+
+polymorh()
