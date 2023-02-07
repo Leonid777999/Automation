@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="Added 1,2,3 tasks to the Abstraction section" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Regular_expressions" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="Leonid777999" />
+        <option name="repository" value="Automation" />
+      </RepoCoordinatesHolder>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JrrUSGHzRZwCJcD3lCwAuLrDUQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Python.Regular expressions with the text">
+    <configuration name="Comprehension list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Automation22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Comprehension list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Inheritance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Automation22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Inheritance.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Regular expressions with the text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Automation22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Regular expressions with the text.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="classes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Automation22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Automation22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Regular expressions with the text" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.Comprehension list" />
+        <item itemvalue="Python.Inheritance" />
+        <item itemvalue="Python.classes" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="" />
+      <created>1672847058063</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672847058063</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Add first excersise to the Exception section">
+      <created>1672849164808</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672849164808</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add second excersise to the Exception section">
+      <created>1672850732169</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672850732169</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Tasks were removed to the separate files&#10;All tasks were done except 5th in Comprehension">
+      <created>1673004496710</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673004496710</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Tasks were removed to the separate files&#10;All tasks were done except 5th in Comprehension">
+      <created>1673004523064</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673004523064</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Opened branch Regular expressions&#10;Added file Regular expressions&#10;Added test text to the file">
+      <created>1673016406244</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673016406244</updated>
+    </task>
+    <task id="LOCAL-00006" summary="All excersises were done">
+      <created>1673023962171</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673023962171</updated>
+    </task>
+    <task id="LOCAL-00007" summary="First excersise for the RegEx sard">
+      <created>1673284040179</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673284040179</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Made second task in RegExp">
+      <created>1673522778046</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673522778046</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Made changes from the comments to pull request">
+      <created>1673607170468</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673607170468</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add 3 and 4 tasks to the regEx section">
+      <created>1673886416905</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673886416905</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add 5th task to the regEx">
+      <created>1674122591567</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1674122591567</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add empty line to the end">
+      <created>1674142427168</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1674142427168</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Create file Class,atrributes,constructor and methods">
+      <created>1674227038355</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1674227038356</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Create file Class,atrributes,constructor and methods">
+      <created>1674227066955</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1674227066955</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Made 2 tasks in for the class section">
+      <created>1674401368858</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1674401368858</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added 3,4 tasks in for the class section">
+      <created>1674491711188</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1674491711188</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added examples to the 3,4 tasks in for the class section and 5tH task">
+      <created>1674493746798</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1674493746798</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added 6,7 tasks to the Class, attributes,... file">
+      <created>1674570577022</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1674570577022</updated>
+    </task>
+    <task id="LOCAL-00019" summary="deleted class attribute &quot;type_w&quot;">
+      <created>1674586429862</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1674586429862</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Added some solutions to the classes file to the tasks 5 and 6">
+      <created>1674651070100</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1674651070100</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Added new way of representing object content in the 6 task">
+      <created>1674656510464</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1674656510465</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Added new way of representing object content in the 6 task">
+      <created>1674656523813</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1674656523813</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Changed name of static variable in &quot;classes and add static variable in &quot;Inheritance&quot;">
+      <created>1674658885859</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1674658885859</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Changed a little parent class and added first and second task to the Inheritance page">
+      <created>1675105292881</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1675105292881</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Added 4 and 5 task to the Inheritance section">
+      <created>1675181239774</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1675181239774</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Added new file  Encapsulation">
+      <created>1675181577945</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1675181577945</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Add first task to the Encapsulation section">
+      <created>1675185770235</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1675185770235</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Added second task to the Encapsulation section">
+      <created>1675275014814</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1675275014814</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Added third task to the Encapsulation section">
+      <created>1675275237080</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1675275237080</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Added first task to the polymorphism section">
+      <created>1675357067868</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1675357067868</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Added second and third tasks to the polymorphism section">
+      <created>1675421958737</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1675421958737</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Changed the name of the function &quot;polymorph&quot;">
+      <created>1675422118453</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1675422118453</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Added 1,2,3 tasks to the Abstraction section">
+      <created>1675438086846</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1675438086846</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First excersise for the RegEx sard" />
+    <MESSAGE value="Made second task in RegExp" />
+    <MESSAGE value="Made changes from the comments to pull request" />
+    <MESSAGE value="Add 3 and 4 tasks to the regEx section" />
+    <MESSAGE value="Add 5th task to the regEx" />
+    <MESSAGE value="Add empty line to the end" />
+    <MESSAGE value="Create file Class,atrributes,constructor and methods" />
+    <MESSAGE value="Made 2 tasks in for the class section" />
+    <MESSAGE value="Added 3,4 tasks in for the class section" />
+    <MESSAGE value="Added examples to the 3,4 tasks in for the class section and 5tH task" />
+    <MESSAGE value="Added 6,7 tasks to the Class, attributes,... file" />
+    <MESSAGE value="deleted class attribute &quot;type_w&quot;" />
+    <MESSAGE value="Added some solutions to the classes file to the tasks 5 and 6" />
+    <MESSAGE value="Added new way of representing object content in the 6 task" />
+    <MESSAGE value="Changed name of static variable in &quot;classes and add static variable in &quot;Inheritance&quot;" />
+    <MESSAGE value="Changed a little parent class and added first and second task to the Inheritance page" />
+    <MESSAGE value="Added 4 and 5 task to the Inheritance section" />
+    <MESSAGE value="Added new file  Encapsulation" />
+    <MESSAGE value="Add first task to the Encapsulation section" />
+    <MESSAGE value="Added second task to the Encapsulation section" />
+    <MESSAGE value="Added third task to the Encapsulation section" />
+    <MESSAGE value="Added first task to the polymorphism section" />
+    <MESSAGE value="Added second and third tasks to the polymorphism section" />
+    <MESSAGE value="Changed the name of the function &quot;polymorph&quot;" />
+    <MESSAGE value="Added 1,2,3 tasks to the Abstraction section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 1,2,3 tasks to the Abstraction section" />
+  </component>
+</project>
