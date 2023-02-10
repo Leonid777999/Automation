@@ -1,19 +1,19 @@
 # 1.
 class Test:
-    type = "web application"
 
-    def __init__(self,url, login, password):
+    def __init__(self,url, login, password, type = "web_application"):
         self.url = url
         self.login = login
         self.password = password
+        self.type = type
 #2.
-    def real_print(cls):
-        return str(f"({cls.url, cls.login, cls.password})")
+    def real_print(self):
+        return str(f"({self.url, self.login, self.password})")
 
 #3.
     def make_choice(self):
         choice = input("Your choice:")
-        if choice == Test.type:
+        if choice == self.type:
             print("You are welcome")
         else:
             print("Ask another team")
@@ -23,11 +23,10 @@ class Test:
         return new_login
 
     def new_password(self,add):
-        new_password = self.password + int(add)
+        new_password = self.password + add
         return new_password
 
-    def print_new(self):
-        return f"({self})"
+
 
 
 
@@ -60,6 +59,4 @@ print(test_object.__dict__)
 setattr(test_object1,"captcha","true")
 getattr(test_object1,"captcha")
 
-test_object.print_new()
-test_object.real_print()
 

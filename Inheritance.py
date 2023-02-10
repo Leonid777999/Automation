@@ -6,14 +6,14 @@ import string
 
 class Web(Test):
 
-    def __init__(self, next_login, url, login, password):
-        super().__init__(url, login, password)
+    def __init__(self, next_login, url, login, password, type):
+        super().__init__(url, login, password, type)
         self.next_login = next_login
     def make_choice(self):
         choice1 = input("Your choice:")
-        if choice1 == super().type:
-            platform = "Chrome"
-            choice2 = input("Your platform")
+        if choice1 == self.type:
+            platform = "chrome"
+            choice2 = input("Your platform").lower()
             if choice2 == platform:
                 print("You are welcome!")
             else:
@@ -30,7 +30,7 @@ class Web(Test):
         return extra_login
 
 
-thor1 = Web("mob","https://www.github.com", "login", 56788)
+thor1 = Web("mob","https://www.github.com", "login", 56788, "web application")
 
 #2  222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
 thor1.make_choice()
