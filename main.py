@@ -336,7 +336,7 @@ print(upper_list)
 
 # 5.
 divnumbers_list = [11, 23, 44, 68, 224, 666, 663, 5555]
-division_list = [x for x in divnumbers_list if ]               ## ????????
+division_list = [x for x in divnumbers_list]               ## ????????
 
 #FILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILESFILES
 # 1.
