@@ -26,7 +26,7 @@ class Web(Test):
         return browser.get(self.url)
 
     def extra_login(self):
-        extra_login = super().new_login() + "55+"
+        extra_login = self.new_login() + "55+"
         return extra_login
 
 

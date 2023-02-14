@@ -14,7 +14,7 @@ class First:
 #2 2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
 class Second:
     def __init__(self, first_protected,first_private,second_public):
-        super().__init__(first_protected,first_private,second_public)
+        super().__init__(first_protected,first_private)
         self.second_public = second_public
 
 
@@ -26,8 +26,8 @@ second.first_protected
 
 first = First("protected", "private")
 
-first._first_protected = "protected1"
-first._First__first_private = "private1"
+setattr(first,"_first_protected","protected1")
+setattr(first,"_First__first_private","private1")
 
 first._first_protected
 first._First__first_private
