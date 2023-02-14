@@ -43,4 +43,9 @@ first = First("url", "login", "password")
 second = Second("url1", 10, "password1")
 third = Third("url2", "login2", "password2")
 
-polymorph()
+def polymorph1(first,second,third):
+    print(first.__dict__)
+    print(second.__dict__)
+    print(third.__dict__)
+
+polymorph1(first, second, third)
