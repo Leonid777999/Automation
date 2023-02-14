@@ -50,13 +50,13 @@ test_object1.new_password(459)
 
 test_object.login = "new login"
 
-setattr(test_object,"login","new entry")
+
 
 #6
 test_object.new = "new variable"
 print(test_object.__dict__)
 
-setattr(test_object1,"captcha","true")
+test_object1.captcha = "true"
 getattr(test_object1,"captcha")
 
 
