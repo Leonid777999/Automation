@@ -10,9 +10,9 @@ class Web(Test):
         super().__init__(url, login, password, type)
         self.next_login = next_login
     def make_choice(self):
+        platform = "chrome"
         choice1 = input("Your choice:")
         if choice1 == self.type:
-            platform = "chrome"
             choice2 = input("Your platform").lower()
             if choice2 == platform:
                 print("You are welcome!")
