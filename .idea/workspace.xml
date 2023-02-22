@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="Made changes for 10th comment(Polymorhism)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automate scenario.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automate scenario.py" afterDir="false" />
-    </list>
+    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="Added some variables to the Automate scenario" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -412,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675874412362</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Added some variables to the Automate scenario">
+      <created>1676987628627</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1676987628627</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
