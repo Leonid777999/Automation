@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="Continued first task">
-      <change afterPath="$PROJECT_DIR$/PageObjectLoginPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PageObjectMailBoxPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PageObjectTestPage.py" afterDir="false" />
+    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="Started page objact pattern task">
+      <change afterPath="$PROJECT_DIR$/Data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/PageObjectLoginPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjectLoginPage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjectMailBoxPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PageObjectMailBoxPage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Automate scenario">
+  <component name="RunManager">
     <configuration name="Automate scenario" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation22" />
       <option name="INTERPRETER_OPTIONS" value="" />
