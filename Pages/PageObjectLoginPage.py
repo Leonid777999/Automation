@@ -1,17 +1,16 @@
-from selenium import webdriver
+from PageObjectBaseClass import BaseClass
+class LoginPage(BaseClass):
 
-browser = webdriver.Chrome()
+    def __init__(self, browser):
+        super().__init__(browser)
 
-site = "https://www.i.ua"
-login = browser.find_element("xpath","//input[@name='login']")
-password = browser.find_element("xpath","//input[@name='pass']")
-enter = browser.find_element("xpath","//input[@tabindex='5']")
+    user_login = "xpath","//input[@name='login']"
+    user_password = "xpath","//input[@name='pass']"
+    enter = "xpath","//input[@tabindex='5']"
 
 
-def open_site():
-    return browser.get(site)
+    def enter_user_login(self,login):
+        self.browser.find_element(*self.user_login).send_keys(login)
 
-def type_login():
-    return login.send_keys()
 
 

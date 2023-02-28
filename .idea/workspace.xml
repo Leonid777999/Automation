@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="Started page objact pattern task">
-      <change afterPath="$PROJECT_DIR$/Data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/PageObjectLoginPage.py" afterDir="false" />
+    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="added method to Page object task">
+      <change afterPath="$PROJECT_DIR$/PageObjectBaseClass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjectLoginPage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PageObjectMailBoxPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PageObjectMailBoxPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjectTestPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjectTestPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/PageObjectLoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PageObjectLoginPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/PageObjectMailBoxPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PageObjectMailBoxPage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +54,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Pages" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Automate scenario" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation22" />
@@ -457,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677256612545</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="added method to Page object task">
+      <created>1677262035063</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1677262035063</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -484,7 +499,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Made changes from the comments to pull request" />
     <MESSAGE value="Add 3 and 4 tasks to the regEx section" />
     <MESSAGE value="Add 5th task to the regEx" />
     <MESSAGE value="Add empty line to the end" />
@@ -509,6 +523,7 @@
     <MESSAGE value="Added 1,2,3 tasks to the Abstraction section" />
     <MESSAGE value="Added some variables to the Automate scenario" />
     <MESSAGE value="Continued first task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Continued first task" />
+    <MESSAGE value="added method to Page object task" />
+    <option name="LAST_COMMIT_MESSAGE" value="added method to Page object task" />
   </component>
 </project>
