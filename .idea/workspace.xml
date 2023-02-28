@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="changes to pageObject">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/PageObjectLoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PageObjectLoginPage.py" afterDir="false" />
-    </list>
+    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="added method to PageObjectLoginPage.py&#10;imported module By, changed path to the elements user_login, User_password, enter" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -474,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677577180103</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="added method to PageObjectLoginPage.py&#10;imported module By, changed path to the elements user_login, User_password, enter">
+      <created>1677602863282</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1677602863282</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -501,7 +505,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add 5th task to the regEx" />
     <MESSAGE value="Add empty line to the end" />
     <MESSAGE value="Create file Class,atrributes,constructor and methods" />
     <MESSAGE value="Made 2 tasks in for the class section" />
@@ -526,6 +529,7 @@
     <MESSAGE value="Continued first task" />
     <MESSAGE value="added method to Page object task" />
     <MESSAGE value="changes to pageObject" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes to pageObject" />
+    <MESSAGE value="added method to PageObjectLoginPage.py&#10;imported module By, changed path to the elements user_login, User_password, enter" />
+    <option name="LAST_COMMIT_MESSAGE" value="added method to PageObjectLoginPage.py&#10;imported module By, changed path to the elements user_login, User_password, enter" />
   </component>
 </project>
