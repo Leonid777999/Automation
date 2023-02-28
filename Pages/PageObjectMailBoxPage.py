@@ -1,4 +1,4 @@
-from PageObjectBaseClass import BaseClass
+from Pages.PageObjectBaseClass import BaseClass
 
 class MailBox(BaseClass):
 

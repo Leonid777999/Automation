@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from PageObjectBaseClass import BaseClass
+from Pages.PageObjectBaseClass import BaseClass
 class LoginPage(BaseClass):
 
     def __init__(self, browser):

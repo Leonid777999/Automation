@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="Added method &quot;click_on_enter_button&quot;" />
+    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="Added methods to the test page">
+      <change beforePath="$PROJECT_DIR$/PageObjectBaseClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PageObjectBaseClass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/PageObjectLoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PageObjectLoginPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/PageObjectMailBoxPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PageObjectMailBoxPage.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +54,7 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Pages" />
+      <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
   <component name="RunManager">
@@ -485,7 +490,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677603184288</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Added method &quot;click_on_enter_button&quot;">
+      <created>1677603248747</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1677603248747</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Added methods to the test page">
+      <created>1677603505557</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1677603505557</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -512,7 +531,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create file Class,atrributes,constructor and methods" />
     <MESSAGE value="Made 2 tasks in for the class section" />
     <MESSAGE value="Added 3,4 tasks in for the class section" />
     <MESSAGE value="Added examples to the 3,4 tasks in for the class section and 5tH task" />
@@ -537,6 +555,7 @@
     <MESSAGE value="changes to pageObject" />
     <MESSAGE value="added method to PageObjectLoginPage.py&#10;imported module By, changed path to the elements user_login, User_password, enter" />
     <MESSAGE value="Added method &quot;click_on_enter_button&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added method &quot;click_on_enter_button&quot;" />
+    <MESSAGE value="Added methods to the test page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added methods to the test page" />
   </component>
 </project>
