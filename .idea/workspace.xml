@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="added method to PageObjectLoginPage.py&#10;imported module By, changed path to the elements user_login, User_password, enter" />
+    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="Added method &quot;click_on_enter_button&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -478,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677602863282</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Added method &quot;click_on_enter_button&quot;">
+      <created>1677603184288</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1677603184288</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -505,7 +512,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add empty line to the end" />
     <MESSAGE value="Create file Class,atrributes,constructor and methods" />
     <MESSAGE value="Made 2 tasks in for the class section" />
     <MESSAGE value="Added 3,4 tasks in for the class section" />
@@ -530,6 +536,7 @@
     <MESSAGE value="added method to Page object task" />
     <MESSAGE value="changes to pageObject" />
     <MESSAGE value="added method to PageObjectLoginPage.py&#10;imported module By, changed path to the elements user_login, User_password, enter" />
-    <option name="LAST_COMMIT_MESSAGE" value="added method to PageObjectLoginPage.py&#10;imported module By, changed path to the elements user_login, User_password, enter" />
+    <MESSAGE value="Added method &quot;click_on_enter_button&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added method &quot;click_on_enter_button&quot;" />
   </component>
 </project>
