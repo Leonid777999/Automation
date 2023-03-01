@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="Added methods to the test page">
-      <change beforePath="$PROJECT_DIR$/PageObjectBaseClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PageObjectBaseClass.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/PageObjectLoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PageObjectLoginPage.py" afterDir="false" />
+    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="Move base class to the Pages folder">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjectTestPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjectTestPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/PageObjectMailBoxPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PageObjectMailBoxPage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -504,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677603505557</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Move base class to the Pages folder">
+      <created>1677603933990</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1677603933991</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -531,7 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Made 2 tasks in for the class section" />
     <MESSAGE value="Added 3,4 tasks in for the class section" />
     <MESSAGE value="Added examples to the 3,4 tasks in for the class section and 5tH task" />
     <MESSAGE value="Added 6,7 tasks to the Class, attributes,... file" />
@@ -556,6 +562,7 @@
     <MESSAGE value="added method to PageObjectLoginPage.py&#10;imported module By, changed path to the elements user_login, User_password, enter" />
     <MESSAGE value="Added method &quot;click_on_enter_button&quot;" />
     <MESSAGE value="Added methods to the test page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added methods to the test page" />
+    <MESSAGE value="Move base class to the Pages folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move base class to the Pages folder" />
   </component>
 </project>
