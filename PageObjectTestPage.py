@@ -8,8 +8,6 @@ def test_excercise(init_browser):
     site_main_page.enter_user_password("automate123")
     site_main_page.click_on_enter_button()
 
-    last_mail = mailbox_page.get_email_title(mailbox_page.email_last)
-    before_last_mail = mailbox_page.get_email_title(mailbox_page.email_before_the_last)
-    assert "Осторожно мошенники!" in last_mail.text
-    assert "Рекомендации по безопасности Вашего аккаунта" in before_last_mail.text
+    assert "Осторожно мошенники!" in mailbox_page.get_email_title(mailbox_page.email_last).text
+    assert "Рекомендации по безопасности Вашего аккаунта" in mailbox_page.get_email_title(mailbox_page.email_before_the_last).text
 
