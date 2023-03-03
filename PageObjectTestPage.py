@@ -11,3 +11,4 @@ def test_excercise(init_browser):
     assert "Осторожно мошенники!" in mailbox_page.get_email_title(mailbox_page.email_last).text
     assert "Рекомендации по безопасности Вашего аккаунта" in mailbox_page.get_email_title(mailbox_page.email_before_the_last).text
 
+    mailbox_page.open_email(mailbox_page.email_last)

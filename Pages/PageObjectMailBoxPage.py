@@ -13,4 +13,19 @@ class MailBox(BaseClass):
 
     def get_email_title(self,email):
         return self.browser.find_element(*email)
+    def open_email(self, email):
+        return self. browser.find_element(*email).click
+
+
+class CurrentEmail(BaseClass):
+
+    email_subject = "//h3[text()='Осторожно мошенники!']"
+    email_sender = "//a[@class='black']"
+    email_reciever = "//div[@class='to']//child::div[2]"
+    def __init__(self,browser):
+        super().__init__(browser)
+
+    def get_email_data(self, data):
+        return self.browser.find_element(*data)
+
 

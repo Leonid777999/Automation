@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="Completed second task for the UI Automation with Selenium section">
+    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="changed assertions for the tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PageObjectTestPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjectTestPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/PageObjectMailBoxPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PageObjectMailBoxPage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -517,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677689907220</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="changed assertions for the tests">
+      <created>1677691050030</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1677691050030</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -544,7 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added examples to the 3,4 tasks in for the class section and 5tH task" />
     <MESSAGE value="Added 6,7 tasks to the Class, attributes,... file" />
     <MESSAGE value="deleted class attribute &quot;type_w&quot;" />
     <MESSAGE value="Added some solutions to the classes file to the tasks 5 and 6" />
@@ -569,6 +576,7 @@
     <MESSAGE value="Added methods to the test page" />
     <MESSAGE value="Move base class to the Pages folder" />
     <MESSAGE value="Completed second task for the UI Automation with Selenium section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed second task for the UI Automation with Selenium section" />
+    <MESSAGE value="changed assertions for the tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed assertions for the tests" />
   </component>
 </project>
