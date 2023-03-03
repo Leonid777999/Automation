@@ -19,7 +19,7 @@ class MailBox(BaseClass):
 
 class CurrentEmail(BaseClass):
 
-    email_subject = "//h3[text()='Осторожно мошенники!']"
+    email_subject = "//div[@class='message_header iua_support clear']//child::h3"
     email_sender = "//a[@class='black']"
     email_reciever = "//div[@class='to']//child::div[2]"
     def __init__(self,browser):
