@@ -21,5 +21,7 @@ def test_excercise(init_browser):
     assert "support@i.ua" in current_email.get_email_data(current_email.email_sender)
     assert "Automate <automate@i.ua>" in current_email.get_email_data(current_email.email_reciever)
 
+    current_email.click_on_create_button(current_email.create_button)
+
 
 
