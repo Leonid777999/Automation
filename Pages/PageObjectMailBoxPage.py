@@ -1,5 +1,7 @@
 from selenium.webdriver.common.by import By
 from Pages.PageObjectBaseClass import BaseClass
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 
@@ -10,22 +12,32 @@ class MailBox(BaseClass):
 
     email_last = By.XPATH, "//*[@id='mesgList']/form/div[1]/a/span[3]/span"
     email_before_the_last = By.XPATH, "//*[@id='mesgList']/form/div[2]/a/span[3]/span"
+    email_row_to_open = By.XPATH, "//div[@class ='row _last']"
 
     def get_email_title(self,email):
-        return self.browser.find_element(*email)
-    def open_email(self, email):
-        return self. browser.find_element(*email).click
+        title_get = WebDriverWait(self.browser, 20).until(
+            EC.presence_of_element_located(email))
+        return title_get.text
+    def open_email(self):
+        element_open = WebDriverWait(self.browser, 20).until(
+            EC.presence_of_element_located(self.email_row_to_open))
+        return element_open.click()
 
 
 class CurrentEmail(BaseClass):
 
-    email_subject = "//div[@class='message_header iua_support clear']//child::h3[text() = 'Осторожно мошенники!']"
-    email_sender = "//a[@class='black']"
-    email_reciever = "//div[@class='to']//child::div[2]"
+    email_subject = By.XPATH, "/html/body/div[1]/div[6]/div[2]/div[2]/ul/li/div[1]/div/div[2]/h3"
+    email_sender = By.XPATH, "/html/body/div[1]/div[6]/div[2]/div[2]/ul/li/div[1]/div/div[2]/div[1]/div[2]/a"
+    email_reciever = By.XPATH, "/html/body/div[1]/div[6]/div[2]/div[2]/ul/li/div[1]/div/div[2]/div[2]/div[2]"
+
     def __init__(self,browser):
         super().__init__(browser)
 
-    def get_email_data(self, data):
-        return self.browser.find_element(*data)
+    def get_email_data(self, email):
+        element = WebDriverWait(self.browser, 20).until(
+          EC.presence_of_element_located(email))
+        return element.text
+
+
 
 

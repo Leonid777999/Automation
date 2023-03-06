@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="Added class to check the email details">
+    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="Added locators to the email details">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PageObjectTestPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjectTestPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/PageObjectBaseClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PageObjectBaseClass.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/PageObjectMailBoxPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PageObjectMailBoxPage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,13 +182,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672847058063</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Tasks were removed to the separate files&#10;All tasks were done except 5th in Comprehension">
-      <created>1673004496710</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1673004496710</updated>
     </task>
     <task id="LOCAL-00004" summary="Tasks were removed to the separate files&#10;All tasks were done except 5th in Comprehension">
       <created>1673004523064</created>
@@ -525,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677855254110</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Added locators to the email details">
+      <created>1677859829574</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1677859829574</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -552,7 +553,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="deleted class attribute &quot;type_w&quot;" />
     <MESSAGE value="Added some solutions to the classes file to the tasks 5 and 6" />
     <MESSAGE value="Added new way of representing object content in the 6 task" />
     <MESSAGE value="Changed name of static variable in &quot;classes and add static variable in &quot;Inheritance&quot;" />
@@ -577,6 +577,7 @@
     <MESSAGE value="Completed second task for the UI Automation with Selenium section" />
     <MESSAGE value="changed assertions for the tests" />
     <MESSAGE value="Added class to check the email details" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added class to check the email details" />
+    <MESSAGE value="Added locators to the email details" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added locators to the email details" />
   </component>
 </project>
