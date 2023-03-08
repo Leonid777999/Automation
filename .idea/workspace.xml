@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="added method to open Create mail">
+    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="new">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjectTestPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page_Object_Test_Page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/PageObjectBaseClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Page_Object_Base_Class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/PageObjectLoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Page_Object_Login_Page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/PageObjectMailBoxPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Page_Object_MailBox_Page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +59,7 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Automate scenario">
     <configuration name="Automate scenario" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation22" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,13 +183,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672847058063</updated>
-    </task>
-    <task id="LOCAL-00006" summary="All excersises were done">
-      <created>1673023962171</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1673023962171</updated>
     </task>
     <task id="LOCAL-00007" summary="First excersise for the RegEx sard">
       <created>1673284040179</created>
@@ -523,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678140394799</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="new">
+      <created>1678218380525</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1678218380525</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -550,7 +554,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed name of static variable in &quot;classes and add static variable in &quot;Inheritance&quot;" />
     <MESSAGE value="Changed a little parent class and added first and second task to the Inheritance page" />
     <MESSAGE value="Added 4 and 5 task to the Inheritance section" />
     <MESSAGE value="Added new file  Encapsulation" />
@@ -575,6 +578,7 @@
     <MESSAGE value="Added locators to the email details" />
     <MESSAGE value="made 3d task for UI Automation card(with WebDriverWait inside classes)" />
     <MESSAGE value="added method to open Create mail" />
-    <option name="LAST_COMMIT_MESSAGE" value="added method to open Create mail" />
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
 </project>

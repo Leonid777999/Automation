@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
-from Pages.PageObjectLoginPage import LoginPage
-from Pages.PageObjectMailBoxPage import MailBox
-from Pages.PageObjectMailBoxPage import CurrentEmail
+from Pages.Page_Object_Login_Page import LoginPage
+from Pages.Page_Object_MailBox_Page import MailBox
+from Pages.Page_Object_MailBox_Page import CurrentEmail
 
 def test_excercise(init_browser):
     site_main_page = LoginPage(init_browser)
