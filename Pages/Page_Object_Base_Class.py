@@ -4,7 +4,7 @@ class BaseClass:
 
     def __init__(self,browser):
         self.browser = browser
-        self.wait = WebDriverWait(self.browser,10)
+
 
 
 
