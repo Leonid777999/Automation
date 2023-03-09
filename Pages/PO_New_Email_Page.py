@@ -1,7 +1,5 @@
 from selenium.webdriver.common.by import By
 from Pages.PO_Base_Class import BaseClass
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 
 class New_Email(BaseClass):
 
@@ -14,12 +12,5 @@ class New_Email(BaseClass):
     send_mail_button = By.XPATH, "//input[@type='submit']"
     folder_with_sended_button = By.XPATH, "//li[@class='current']/a"
 
-    def fill_the_field(self, field, text: str):
-        fill_field = WebDriverWait(self.browser, 20).until(
-            EC.presence_of_element_located(field))
-        return fill_field.send_keys(text)
 
-    def send_email(self, send_button):
-        send = WebDriverWait(self.browser, 20).until(
-            EC.presence_of_element_located(send_button))
-        return send.click()
+

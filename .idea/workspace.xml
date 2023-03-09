@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="added new page and some actions">
-      <change afterPath="$PROJECT_DIR$/Pages/PO_Send_Status_page.py" afterDir="false" />
+    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="made first edition of the complete task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page_Object_Test_Page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PO_Test_Page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Page_Object_Base_Class.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PO_Base_Class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Page_Object_Login_Page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PO_Login_Page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Page_Object_MailBox_Page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PO_MailBox_Page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Page_Object_New_Email.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PO_New_Email_Page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PO_Test_Page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PO_Test_Page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/PO_Base_Class.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PO_Base_Class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/PO_Login_Page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PO_Login_Page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/PO_MailBox_Page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PO_MailBox_Page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/PO_New_Email_Page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PO_New_Email_Page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/PO_Send_Status_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PO_Send_Status_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,13 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672847058063</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Made changes from the comments to pull request">
-      <created>1673607170468</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1673607170468</updated>
     </task>
     <task id="LOCAL-00010" summary="Add 3 and 4 tasks to the regEx section">
       <created>1673886416905</created>
@@ -529,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678312089204</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="made first edition of the complete task">
+      <created>1678363089884</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1678363089884</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -556,7 +556,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added new file  Encapsulation" />
     <MESSAGE value="Add first task to the Encapsulation section" />
     <MESSAGE value="Added second task to the Encapsulation section" />
     <MESSAGE value="Added third task to the Encapsulation section" />
@@ -581,6 +580,7 @@
     <MESSAGE value="new" />
     <MESSAGE value="Renamed files" />
     <MESSAGE value="added new page and some actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new page and some actions" />
+    <MESSAGE value="made first edition of the complete task" />
+    <option name="LAST_COMMIT_MESSAGE" value="made first edition of the complete task" />
   </component>
 </project>
