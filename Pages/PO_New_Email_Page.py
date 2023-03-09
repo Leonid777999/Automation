@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from Pages.Page_Object_Base_Class import BaseClass
+from Pages.PO_Base_Class import BaseClass
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 

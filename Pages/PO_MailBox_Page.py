@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from Pages.Page_Object_Base_Class import BaseClass
+from Pages.PO_Base_Class import BaseClass
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -11,7 +11,9 @@ class MailBox(BaseClass):
         super().__init__(browser)
 
     email_last = By.XPATH, "//*[@id='mesgList']/form/div[1]/a/span[3]/span"
+    email_first = By.XPATH, "//span[contains(text(), 'Осторожно мошенники!')]"
     email_before_the_last = By.XPATH, "//*[@id='mesgList']/form/div[2]/a/span[3]/span"
+    email_second = By.XPATH, "//span[contains(text(), 'Рекомендации по безопасности Вашего аккаунта')]"
     email_row_to_open = By.XPATH, "//div[@class ='row _last']"
 
     def get_email_title(self,email):
