@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="made first edition of the complete task">
+    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="Made common methods (get_text, click, send_keys) inside the BaseClass and remove these methods from the Pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PO_Test_Page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PO_Test_Page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/PO_Base_Class.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PO_Base_Class.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/PO_Login_Page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PO_Login_Page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/PO_MailBox_Page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PO_MailBox_Page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/PO_New_Email_Page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PO_New_Email_Page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/PO_Send_Status_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PO_Send_Status_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,13 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672847058063</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Add 3 and 4 tasks to the regEx section">
-      <created>1673886416905</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1673886416905</updated>
     </task>
     <task id="LOCAL-00011" summary="Add 5th task to the regEx">
       <created>1674122591567</created>
@@ -529,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678363089884</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Made common methods (get_text, click, send_keys) inside the BaseClass and remove these methods from the Pages">
+      <created>1678377384310</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1678377384310</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -556,7 +556,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add first task to the Encapsulation section" />
     <MESSAGE value="Added second task to the Encapsulation section" />
     <MESSAGE value="Added third task to the Encapsulation section" />
     <MESSAGE value="Added first task to the polymorphism section" />
@@ -581,6 +580,7 @@
     <MESSAGE value="Renamed files" />
     <MESSAGE value="added new page and some actions" />
     <MESSAGE value="made first edition of the complete task" />
-    <option name="LAST_COMMIT_MESSAGE" value="made first edition of the complete task" />
+    <MESSAGE value="Made common methods (get_text, click, send_keys) inside the BaseClass and remove these methods from the Pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made common methods (get_text, click, send_keys) inside the BaseClass and remove these methods from the Pages" />
   </component>
 </project>

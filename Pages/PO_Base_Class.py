@@ -6,7 +6,7 @@ class BaseClass:
         self.browser = browser
         self.wait = WebDriverWait(self.browser, 20)
 
-    def get_text_data(self, position):
+    def get_text(self, position):
         get_data = self.wait.until(EC.presence_of_element_located(position))
         return get_data.text
 

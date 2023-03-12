@@ -1,7 +1,7 @@
 import pytest
 from selenium import webdriver
 
-@pytest.fixture
+@pytest.fixture(scope="session")
 def init_browser():
     url = "https://i.ua"
     browser = webdriver.Chrome()
