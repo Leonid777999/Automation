@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from Pages.PO_Base_Class import BaseClass
+from Pages.po_base_class import BaseClass
 
 class Send_status(BaseClass):
 

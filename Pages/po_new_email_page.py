@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
-from Pages.PO_Base_Class import BaseClass
-from Pages.PO_Send_Status_page import Send_status
+from Pages.po_base_class import BaseClass
+from Pages.po_send_status_page import Send_status
 
 class New_Email(BaseClass):
 

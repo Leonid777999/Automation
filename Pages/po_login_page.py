@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
-from Pages.PO_Base_Class import BaseClass
-from Pages.PO_MailBox_Page import MailBox
+from Pages.po_base_class import BaseClass
+from Pages.po_mailbox_page import MailBox
 
 
 class LoginPage(BaseClass):
