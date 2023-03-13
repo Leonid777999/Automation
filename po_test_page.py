@@ -25,12 +25,12 @@ def test_excercise(init_browser):
     # click Create email button and switch to the creation page
     current_email.create_new_mail()
 
-    # fill required filds and send email
+    # fill required fields and send email
     new_email.create_new_mail("test@example.com", "check the mail", "texttexttexttextTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT")
 
-    # open folder with sended mails, check if the letter exists in this folder
-    send_status.click_button(send_status.sended_mails_button)
-    assert "check the mail" in send_status.get_text(send_status.sended_mail)
+    # open folder with the sended mails, check if the letter exists in this folder
+    send_status.open_sended_mails_folder()
+    assert "check the mail" in send_status.get_title_of_sended_mail()
 
 
 
