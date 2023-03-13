@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="changed the names of the files">
+    <list default="true" id="16d81869-0b78-474f-a588-d7f02e44dcd7" name="Changes" comment="continued with tha adding of methods to the classes, added file for variables">
+      <change afterPath="$PROJECT_DIR$/Locators/locators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/po_login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/po_login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/po_mailbox_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/po_mailbox_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/po_new_email_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/po_new_email_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/po_send_status_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/po_send_status_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Variables/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automate_scenario.py" beforeDir="false" afterPath="$PROJECT_DIR$/First task/automate_scenario.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/po_test_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/po_test_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +58,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/First task" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Pages" />
       <recent name="$PROJECT_DIR$/" />
@@ -133,7 +140,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automate_scenario.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/First task/automate_scenario.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,13 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672847058063</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Create file Class,atrributes,constructor and methods">
-      <created>1674227038355</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1674227038356</updated>
     </task>
     <task id="LOCAL-00014" summary="Create file Class,atrributes,constructor and methods">
       <created>1674227066955</created>
@@ -525,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678691080958</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="continued with tha adding of methods to the classes, added file for variables">
+      <created>1678695576847</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1678695576847</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -552,7 +559,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added first task to the polymorphism section" />
     <MESSAGE value="Added second and third tasks to the polymorphism section" />
     <MESSAGE value="Changed the name of the function &quot;polymorph&quot;" />
     <MESSAGE value="Added 1,2,3 tasks to the Abstraction section" />
@@ -577,6 +583,7 @@
     <MESSAGE value="Made common methods (get_text, click, send_keys) inside the BaseClass and remove these methods from the Pages" />
     <MESSAGE value="Added methods to the classes and change test function" />
     <MESSAGE value="changed the names of the files" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed the names of the files" />
+    <MESSAGE value="continued with tha adding of methods to the classes, added file for variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="continued with tha adding of methods to the classes, added file for variables" />
   </component>
 </project>

@@ -1,30 +1,25 @@
 from selenium.webdriver.common.by import By
-from Pages.po_base_class import BaseClass
-from Pages.po_send_status_page import Send_status
+from pages.po_base_class import BaseClass
+from pages.po_send_status_page import Send_status
+from locators.locators import Locators
 
 class New_Email(BaseClass):
 
     def __init__(self, browser):
         super().__init__(browser)
 
-    field_to = By.ID, "to"
-    field_subject = By.XPATH, "//input[@name='subject']"
-    field_text = By.ID, "text"
-    send_mail_button = By.XPATH, "//input[@type='submit']"
-    folder_with_sended_button = By.XPATH, "//li[@class='current']/a"
-
     def fill_the_receiver_field(self, recevier:str):
-        self.fill_the_field(self.field_to, recevier)
+        self.fill_the_field(Locators.FIELD_TO, recevier)
         return self
     def fill_the_subject_field(self, subject:str):
-        self.fill_the_field(self.field_subject, subject)
+        self.fill_the_field(Locators.FIELD_SUBJECT, subject)
         return self
     def fill_the_text_field(self, text:str):
-        self.fill_the_field(self.field_text, text)
+        self.fill_the_field(Locators.FIELD_TEXT, text)
         return self
 
     def click_send_mail_button(self):
-        self.click_button(self.send_mail_button)
+        self.click_button(Locators.SEND_MAIL_BUTTON)
         return self
 
 

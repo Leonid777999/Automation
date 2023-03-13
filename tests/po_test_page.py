@@ -1,8 +1,9 @@
-from Pages.po_login_page import LoginPage
-from Pages.po_mailbox_page import MailBox
-from Pages.po_mailbox_page import CurrentEmail
-from Pages.po_new_email_page import New_Email
-from Pages.po_send_status_page import Send_status
+from pages.po_login_page import LoginPage
+from pages.po_mailbox_page import MailBox
+from pages.po_mailbox_page import CurrentEmail
+from pages.po_new_email_page import New_Email
+from pages.po_send_status_page import Send_status
+from app import App
 
 def test_excercise(init_browser):
     site_main_page = LoginPage(init_browser)
