@@ -1,10 +1,10 @@
 import pytest
-from selenium import webdriver
+from app import App
+
 
 @pytest.fixture(scope="session")
-def init_browser():
-    url = "https://i.ua"
-    browser = webdriver.Chrome()
-    browser.get(url)
-    yield browser
-    browser.quit()
+def app():
+    app = App()
+    app.open_self()
+    yield app
+    app.close_self()

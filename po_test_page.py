@@ -1,9 +1,6 @@
 from app import App
 
-def test_excercise(init_browser):
-
-    #create instance for test
-    app = App(init_browser)
+def test_excercise(app):
 
     #login to the mailbox and get titles of two letters
     app.login_page.sign_in("automate","automate123")
