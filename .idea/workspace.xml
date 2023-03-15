@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5dba22aa-29e4-415b-871a-0f7103a0d0f9" name="Changes" comment="created App fixture">
+    <list default="true" id="5dba22aa-29e4-415b-871a-0f7103a0d0f9" name="Changes" comment="added hints to locators">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locators/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/locators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/po_base_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/po_base_class.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/po_login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/po_login_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/po_mailbox_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/po_mailbox_page.py" afterDir="false" />
@@ -190,13 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672847058063</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Added 3,4 tasks in for the class section">
-      <created>1674491711188</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1674491711188</updated>
     </task>
     <task id="LOCAL-00017" summary="Added examples to the 3,4 tasks in for the class section and 5tH task">
       <created>1674493746798</created>
@@ -534,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678813380219</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="added hints to locators">
+      <created>1678872427090</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1678872427090</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -561,7 +559,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed the name of the function &quot;polymorph&quot;" />
     <MESSAGE value="Added 1,2,3 tasks to the Abstraction section" />
     <MESSAGE value="Added some variables to the Automate scenario" />
     <MESSAGE value="Continued first task" />
@@ -586,6 +583,7 @@
     <MESSAGE value="changed the names of the files" />
     <MESSAGE value="continued with tha adding of methods to the classes, added file for variables" />
     <MESSAGE value="created App fixture" />
-    <option name="LAST_COMMIT_MESSAGE" value="created App fixture" />
+    <MESSAGE value="added hints to locators" />
+    <option name="LAST_COMMIT_MESSAGE" value="added hints to locators" />
   </component>
 </project>

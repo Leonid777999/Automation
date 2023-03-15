@@ -13,7 +13,7 @@ def test_excercise(app):
     assert "Automate <automate@i.ua>" in app.current_email.get_data_from_receiver()
 
     # click Create email button and switch to the creation page
-    app.current_email.create_new_mail()
+    app.current_email.goto_create_new_mail()
 
     # fill required fields and send email
     app.new_email.create_new_mail("test@example.com", "check the mail", "texttexttexttextTTTTTTTTTTTTTTTTTTTTTTTTTTTT")

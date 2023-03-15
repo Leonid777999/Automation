@@ -11,6 +11,6 @@ class SendStatus(BaseClass):
         self.click_button(Locators.SENDED_MAILS_FOLDER_BUTTON)
         return self
 
-    def get_title_of_sended_mail(self):
+    def get_title_of_sended_mail(self) -> str:
         get_title = self.get_text(Locators.SENDED_MAIL)
         return get_title

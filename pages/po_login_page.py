@@ -20,7 +20,7 @@ class LoginPage(BaseClass):
         self.click_button(Locators.ENTER_BUTTON)
         return self
 
-    def sign_in(self, login: str, passwd: str):
+    def sign_in(self, login: str, passwd: str) -> MailBox:
         self.enter_login(login)
         self.enter_passwd(passwd)
         self.click_enter_button()
