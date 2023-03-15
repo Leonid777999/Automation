@@ -1,8 +1,8 @@
-from selenium.webdriver.common.by import By
 from pages.po_base_class import BaseClass
 from locators.locators import Locators
 
-class Send_status(BaseClass):
+
+class SendStatus(BaseClass):
 
     def __init__(self, browser):
         super().__init__(browser)
@@ -14,5 +14,3 @@ class Send_status(BaseClass):
     def get_title_of_sended_mail(self):
         get_title = self.get_text(Locators.SENDED_MAIL)
         return get_title
-
-

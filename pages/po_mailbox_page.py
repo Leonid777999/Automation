@@ -1,6 +1,5 @@
-from selenium.webdriver.common.by import By
 from pages.po_base_class import BaseClass
-from pages.po_new_email_page import New_Email
+from pages.po_new_email_page import NewEmail
 from locators.locators import Locators
 
 class MailBox(BaseClass):
@@ -39,7 +38,7 @@ class CurrentEmail(BaseClass):
 
     def create_new_mail(self):
         self.click_button(Locators.CREATE_NEW_MAIL_BUTTON)
-        return New_Email(self.browser)
+        return NewEmail(self.browser)
 
 
 
