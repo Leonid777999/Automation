@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
 
-class LoginLocators:
+class LoginPageLocators:
 
     USER_LOGIN: tuple = By.XPATH, "//input[@name='login']"
     USER_PASSWORD: tuple = By.XPATH, "//input[@name='pass']"

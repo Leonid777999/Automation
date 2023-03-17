@@ -2,8 +2,8 @@ from __future__ import annotations
 
 from selenium.webdriver.chrome import webdriver
 from pages.po_base_class import BaseClass
-from pages.po_send_status_page import SendStatus
-from constants.locators.new_email import NewEmailLocators
+from pages.po_mail_status_page import MailStatus
+from constants.locators.new_email_page import NewEmailLocators
 
 
 class NewEmail(BaseClass):
@@ -23,9 +23,9 @@ class NewEmail(BaseClass):
     def click_send_mail_button(self) -> NewEmail:
         return self.click_button(NewEmailLocators.SEND_MAIL_BUTTON)
 
-    def create_new_mail(self, receiver: str, subject: str, text: str) -> SendStatus:
+    def create_new_mail(self, receiver: str, subject: str, text: str) -> MailStatus:
         self.fill_the_receiver_field(receiver)
         self.fill_the_subject_field(subject)
         self.fill_the_text_field(text)
         self.click_send_mail_button()
-        return SendStatus(self.browser)
+        return MailStatus(self.browser)

@@ -2,7 +2,7 @@ from __future__ import annotations
 from selenium.webdriver.chrome import webdriver
 from pages.po_base_class import BaseClass
 from pages.po_mailbox_page import MailBox
-from constants.locators.login import LoginLocators
+from constants.locators.login_page import LoginPageLocators
 
 
 class LoginPage(BaseClass):
@@ -11,13 +11,13 @@ class LoginPage(BaseClass):
         super().__init__(browser)
 
     def enter_login(self, login: str) -> LoginPage:
-        return self.fill_the_field(LoginLocators.USER_LOGIN, login)
+        return self.fill_the_field(LoginPageLocators.USER_LOGIN, login)
 
     def enter_passwd(self, passwd: str) -> LoginPage:
-        return self.fill_the_field(LoginLocators.USER_PASSWORD, passwd)
+        return self.fill_the_field(LoginPageLocators.USER_PASSWORD, passwd)
 
     def click_enter_button(self) -> LoginPage:
-        return self.click_button(LoginLocators.ENTER_BUTTON)
+        return self.click_button(LoginPageLocators.ENTER_BUTTON)
 
     def sign_in(self, login: str, passwd: str) -> MailBox:
         self.enter_login(login)

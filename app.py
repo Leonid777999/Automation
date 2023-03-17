@@ -2,7 +2,7 @@ from selenium import webdriver
 from pages.po_login_page import LoginPage
 from pages.po_mailbox_page import MailBox, CurrentEmail
 from pages.po_new_email_page import NewEmail
-from pages.po_send_status_page import SendStatus
+from pages.po_mail_status_page import MailStatus
 
 
 class App:
@@ -17,7 +17,7 @@ class App:
         self.mailbox_page = MailBox(self.__browser)
         self.current_email = CurrentEmail(self.__browser)
         self.new_email = NewEmail(self.__browser)
-        self.send_status = SendStatus(self.__browser)
+        self.send_status = MailStatus(self.__browser)
 
     def open(self):
         self.__browser.get(self.URL)
