@@ -1,28 +1,27 @@
+from __future__ import annotations
+
+from selenium.webdriver.chrome import webdriver
 from pages.po_base_class import BaseClass
 from pages.po_send_status_page import SendStatus
-from locators.locators import Locators
+from constants.locators.new_email import NewEmailLocators
 
 
 class NewEmail(BaseClass):
 
-    def __init__(self, browser):
+    def __init__(self, browser: webdriver):
         super().__init__(browser)
 
-    def fill_the_receiver_field(self, receiver: str):
-        self.fill_the_field(Locators.FIELD_TO, receiver)
-        return self
+    def fill_the_receiver_field(self, receiver: str) -> NewEmail:
+        return self.fill_the_field(NewEmailLocators.FIELD_TO, receiver)
 
-    def fill_the_subject_field(self, subject: str):
-        self.fill_the_field(Locators.FIELD_SUBJECT, subject)
-        return self
+    def fill_the_subject_field(self, subject: str) -> NewEmail:
+        return self.fill_the_field(NewEmailLocators.FIELD_SUBJECT, subject)
 
-    def fill_the_text_field(self, text: str):
-        self.fill_the_field(Locators.FIELD_TEXT, text)
-        return self
+    def fill_the_text_field(self, text: str) -> NewEmail:
+        return self.fill_the_field(NewEmailLocators.FIELD_TEXT, text)
 
-    def click_send_mail_button(self):
-        self.click_button(Locators.SEND_MAIL_BUTTON)
-        return self
+    def click_send_mail_button(self) -> NewEmail:
+        return self.click_button(NewEmailLocators.SEND_MAIL_BUTTON)
 
     def create_new_mail(self, receiver: str, subject: str, text: str) -> SendStatus:
         self.fill_the_receiver_field(receiver)

@@ -19,8 +19,8 @@ class App:
         self.new_email = NewEmail(self.__browser)
         self.send_status = SendStatus(self.__browser)
 
-    def open_self(self):
+    def open(self):
         self.__browser.get(self.URL)
 
-    def close_self(self):
+    def close(self):
         self.__browser.quit()

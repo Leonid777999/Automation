@@ -1,42 +1,38 @@
+from __future__ import annotations
+from selenium.webdriver.chrome import webdriver
 from pages.po_base_class import BaseClass
 from pages.po_new_email_page import NewEmail
-from locators.locators import Locators
+from constants.locators.mailbox import MailboxLocators
+from constants.locators.current_mail import CurrentMailLocators
 
 
 class MailBox(BaseClass):
 
-    def __init__(self, browser):
+    def __init__(self, browser: webdriver):
         super().__init__(browser)
 
-    def get_title_first_mail(self) -> str:
-        get_title = self.get_text(Locators.EMAIL_FIRST)
-        return get_title
+    def get_mail_title(self,position) -> MailBox:
+        return self.get_text(position)
 
-    def get_title_second_mail(self) -> str:
-        get_title = self.get_text(Locators.EMAIL_SECOND)
-        return get_title
+    def open_email(self) -> CurrentEmail:
+        self.click_button(MailboxLocators.EMAIL_ROW_TO_OPEN)
+        return CurrentEmail(self.browser)
 
-    def open_email(self):
-        self.click_button(Locators.EMAIL_ROW_TO_OPEN)
 
 
 class CurrentEmail(BaseClass):
 
-    def __init__(self, browser):
+    def __init__(self, browser: webdriver):
         super().__init__(browser)
 
-    def get_data_from_subject(self) -> str:
-        get_subject = self.get_text(Locators.EMAIL_SUBJECT)
-        return get_subject
+    def get_email_subject(self) -> CurrentEmail:
+        return self.get_text(CurrentMailLocators.EMAIL_SUBJECT)
+    def get_email_sender(self) -> CurrentEmail:
+        return self.get_text(CurrentMailLocators.EMAIL_SENDER)
 
-    def get_data_from_sender(self) -> str:
-        get_sender = self.get_text(Locators.EMAIL_SENDER)
-        return get_sender
-
-    def get_data_from_receiver(self) -> str:
-        get_receiver = self.get_text(Locators.EMAIL_RECEIVER)
-        return get_receiver
+    def get_email_receiver(self) -> CurrentEmail:
+        return self.get_text(CurrentMailLocators.EMAIL_RECEIVER)
 
     def goto_create_new_mail(self) -> NewEmail:
-        self.click_button(Locators.CREATE_NEW_MAIL_BUTTON)
+        self.click_button(CurrentMailLocators.CREATE_NEW_MAIL_BUTTON)
         return NewEmail(self.browser)
