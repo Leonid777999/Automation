@@ -1,17 +1,19 @@
 from __future__ import annotations
-from selenium.webdriver.chrome import webdriver
+from selenium import webdriver
+from constants.locators.sent_mail_folder_page import SentMailFolderLocators
 from pages.po_base_class import BaseClass
 from constants.locators.mail_status_page import MailStatusLocators
-from constants.locators.sent_mail_folder_page import SentMailFolderLocators
+from pages.sent_mail_folder import SentMailFolder
 
 
 class MailStatus(BaseClass):
 
-    def __init__(self, browser: webdriver):
+    def __init__(self, browser: webdriver.Chrome):
         super().__init__(browser)
+        self.__browser = browser
 
-    def open_sent_mails_folder(self) -> MailStatus:
-        return self.click_button(MailStatusLocators.SENT_MAILS_FOLDER_BUTTON)
+    def open_sent_mails_folder(self) -> SentMailFolder:
+        self.click_button(MailStatusLocators.SENT_MAILS_FOLDER_BUTTON)
+        return SentMailFolder(self.__browser)
 
-    def get_title_of_sent_mail(self) -> MailStatus:
-        return self.get_text(SentMailFolderLocators.SENT_MAIL)
+

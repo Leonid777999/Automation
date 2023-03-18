@@ -25,4 +25,5 @@ def test_exercise(app):
 
     # open folder with the sended mails, check if the letter exists in this folder
     app.send_status.open_sent_mails_folder()
-    assert "check the mail" in app.send_status.get_title_of_sent_mail()
+    assert "check the mail" in app.sent_mail.get_sent_mail_subject()
+

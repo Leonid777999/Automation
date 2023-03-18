@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5dba22aa-29e4-415b-871a-0f7103a0d0f9" name="Changes" comment="Removed pass and login to the separate file&#10;added annotations to the methods with self&#10;added annotations to the init&#10;changed method names&#10;removed locators to the separate files&#10;removed variables">
-      <change afterPath="$PROJECT_DIR$/pages/po_current_mail_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/po_sent_mail_folder_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+    <list default="true" id="5dba22aa-29e4-415b-871a-0f7103a0d0f9" name="Changes" comment="changed files with locators&#10;change import in test &#10;changed locator&#10;remove tests to the test folder">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Automation22.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Automation22.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/locators/current_mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants/locators/current_mail_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/locators/folders_with_sent.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants/locators/sent_mail_folder_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/locators/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants/locators/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/locators/mail_status.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants/locators/mail_status_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/locators/mailbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants/locators/mailbox_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/locators/new_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants/locators/new_email_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/po_base_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/po_base_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/po_current_mail_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/po_current_mail_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/po_login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/po_login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/po_mail_status_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/po_mail_status_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/po_mailbox_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/po_mailbox_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/po_new_email_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/po_new_email_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/po_send_status_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/po_mail_status_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/po_test_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/po_test_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/po_sent_mail_folder_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sent_mail_folder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/po_test_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/po_test_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +34,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="recentNewPullRequestHead">
@@ -56,15 +52,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/lskrypnikov/PycharmProjects/Automation22&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/lskrypnikov/PycharmProjects/Automation22",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tests" />
@@ -74,7 +70,7 @@
       <recent name="$PROJECT_DIR$/First task" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.automate_scenario">
+  <component name="RunManager">
     <configuration name="Comprehension list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation22" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,6 +187,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5dba22aa-29e4-415b-871a-0f7103a0d0f9" name="Changes" comment="" />
@@ -198,13 +197,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672847058063</updated>
-    </task>
-    <task id="LOCAL-00019" summary="deleted class attribute &quot;type_w&quot;">
-      <created>1674586429862</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1674586429862</updated>
     </task>
     <task id="LOCAL-00020" summary="Added some solutions to the classes file to the tasks 5 and 6">
       <created>1674651070100</created>
@@ -542,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679062460014</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="changed files with locators&#10;change import in test &#10;changed locator&#10;remove tests to the test folder">
+      <created>1679073911927</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1679073911927</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -569,7 +568,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Continued first task" />
     <MESSAGE value="added method to Page object task" />
     <MESSAGE value="changes to pageObject" />
     <MESSAGE value="added method to PageObjectLoginPage.py&#10;imported module By, changed path to the elements user_login, User_password, enter" />
@@ -594,6 +592,7 @@
     <MESSAGE value="added hints to locators" />
     <MESSAGE value="added hints to the methods" />
     <MESSAGE value="Removed pass and login to the separate file&#10;added annotations to the methods with self&#10;added annotations to the init&#10;changed method names&#10;removed locators to the separate files&#10;removed variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed pass and login to the separate file&#10;added annotations to the methods with self&#10;added annotations to the init&#10;changed method names&#10;removed locators to the separate files&#10;removed variables" />
+    <MESSAGE value="changed files with locators&#10;change import in test &#10;changed locator&#10;remove tests to the test folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed files with locators&#10;change import in test &#10;changed locator&#10;remove tests to the test folder" />
   </component>
 </project>
