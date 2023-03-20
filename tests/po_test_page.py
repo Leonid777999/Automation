@@ -6,10 +6,8 @@ def test_exercise(app):
 
     # login to the mailbox and get titles of two letters
     app.login_page.sign_in(credentials.USER_LOGIN, credentials.USER_PASS)
-    assert "Осторожно мошенники!" \
-           in app.mailbox_page.get_mail_title(mailbox_page.MailBoxLocators.EMAIL_FIRST)
-    assert "Рекомендации по безопасности Вашего аккаунта" \
-           in app.mailbox_page.get_mail_title(mailbox_page.MailBoxLocators.EMAIL_SECOND)
+    assert "Осторожно мошенники!" in app.mailbox_page.get_first_mail_title()
+    assert "Рекомендации по безопасности Вашего аккаунта" in app.mailbox_page.get_second_mail_title()
 
     # open specific email and check the fields "subject", "from", "to"
     app.mailbox_page.open_email()

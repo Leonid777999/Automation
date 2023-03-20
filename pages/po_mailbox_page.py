@@ -11,13 +11,14 @@ class MailBox(BaseClass):
         super().__init__(browser)
         self.__browser = browser
 
-    def get_mail_title(self,position) -> str:
-        return self.get_text(position)
+    def get_first_mail_title(self) -> str:
+        return self.get_text(MailBoxLocators.EMAIL_FIRST)
+
+    def get_second_mail_title(self):
+        return self.get_text(MailBoxLocators.EMAIL_SECOND)
+
 
     def open_email(self) -> CurrentEmail:
         self.click_button(MailBoxLocators.EMAIL_ROW_TO_OPEN)
         return CurrentEmail(self.__browser)
-
-
-
 

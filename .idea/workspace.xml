@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5dba22aa-29e4-415b-871a-0f7103a0d0f9" name="Changes" comment="changed files with locators&#10;change import in test &#10;changed locator&#10;remove tests to the test folder">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Automation22.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Automation22.iml" afterDir="false" />
+    <list default="true" id="5dba22aa-29e4-415b-871a-0f7103a0d0f9" name="Changes" comment="added .idea to gitignore&#10;changed browser annotations&#10;made browser as private variable in all classes&#10;changed annotation for the method which returns string">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/po_base_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/po_base_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/po_current_mail_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/po_current_mail_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/po_login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/po_login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/po_mail_status_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/po_mail_status_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/po_mailbox_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/po_mailbox_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/po_new_email_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/po_new_email_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/po_sent_mail_folder_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sent_mail_folder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/po_test_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/po_test_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -197,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672847058063</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Added some solutions to the classes file to the tasks 5 and 6">
-      <created>1674651070100</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1674651070100</updated>
     </task>
     <task id="LOCAL-00021" summary="Added new way of representing object content in the 6 task">
       <created>1674656510464</created>
@@ -541,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679073911927</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="added .idea to gitignore&#10;changed browser annotations&#10;made browser as private variable in all classes&#10;changed annotation for the method which returns string">
+      <created>1679171861511</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1679171861511</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -568,7 +560,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added method to Page object task" />
     <MESSAGE value="changes to pageObject" />
     <MESSAGE value="added method to PageObjectLoginPage.py&#10;imported module By, changed path to the elements user_login, User_password, enter" />
     <MESSAGE value="Added method &quot;click_on_enter_button&quot;" />
@@ -593,6 +584,7 @@
     <MESSAGE value="added hints to the methods" />
     <MESSAGE value="Removed pass and login to the separate file&#10;added annotations to the methods with self&#10;added annotations to the init&#10;changed method names&#10;removed locators to the separate files&#10;removed variables" />
     <MESSAGE value="changed files with locators&#10;change import in test &#10;changed locator&#10;remove tests to the test folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed files with locators&#10;change import in test &#10;changed locator&#10;remove tests to the test folder" />
+    <MESSAGE value="added .idea to gitignore&#10;changed browser annotations&#10;made browser as private variable in all classes&#10;changed annotation for the method which returns string" />
+    <option name="LAST_COMMIT_MESSAGE" value="added .idea to gitignore&#10;changed browser annotations&#10;made browser as private variable in all classes&#10;changed annotation for the method which returns string" />
   </component>
 </project>
