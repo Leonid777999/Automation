@@ -14,11 +14,29 @@ class MailBox(BaseClass):
     def get_first_mail_title(self) -> str:
         return self.get_text(MailBoxLocators.EMAIL_FIRST)
 
-    def get_second_mail_title(self):
+    def get_second_mail_title(self) -> str:
         return self.get_text(MailBoxLocators.EMAIL_SECOND)
 
 
     def open_email(self) -> CurrentEmail:
         self.click_button(MailBoxLocators.EMAIL_ROW_TO_OPEN)
         return CurrentEmail(self.__browser)
+
+
+    def get_titles_by_findelements(self):
+        return (element.text for element in self.find_elements(MailBoxLocators.MESSAGE_LIST))
+
+    #def get_titles_secondvariant(self):
+     #   return self.get_text(element): for element in self.find_elements(MailBoxLocators.MESSAGE_LIST)
+
+
+    #def open_mail(self, title):
+     # elements = {element.text: element for element in self.find_elements(MailBoxLocators.MESSAGE_LIST)}
+     # elements[title].click()
+
+
+
+
+
+
 

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5dba22aa-29e4-415b-871a-0f7103a0d0f9" name="Changes" comment="added .idea to gitignore&#10;changed browser annotations&#10;made browser as private variable in all classes&#10;changed annotation for the method which returns string">
+    <list default="true" id="5dba22aa-29e4-415b-871a-0f7103a0d0f9" name="Changes" comment="moved locators from the test page to the po page">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants/locators/mailbox_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants/locators/mailbox_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/po_base_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/po_base_class.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/po_mailbox_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/po_mailbox_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/po_test_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/po_test_page.py" afterDir="false" />
@@ -44,15 +46,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/lskrypnikov/PycharmProjects/Automation22",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lskrypnikov/PycharmProjects/Automation22&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tests" />
@@ -62,7 +64,7 @@
       <recent name="$PROJECT_DIR$/First task" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.po_mailbox_page">
     <configuration name="Comprehension list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation22" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,27 +80,6 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Comprehension list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Inheritance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Automation22" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Inheritance.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -168,13 +149,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="po_mailbox_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Automation22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pages" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pages/po_mailbox_page.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.po_mailbox_page" />
         <item itemvalue="Python.automate_scenario" />
         <item itemvalue="Python.Regular expressions with the text" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.Comprehension list" />
-        <item itemvalue="Python.Inheritance" />
       </list>
     </recent_temporary>
   </component>
@@ -189,13 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672847058063</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Added new way of representing object content in the 6 task">
-      <created>1674656510464</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1674656510465</updated>
     </task>
     <task id="LOCAL-00022" summary="Added new way of representing object content in the 6 task">
       <created>1674656523813</created>
@@ -533,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679171861511</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="moved locators from the test page to the po page">
+      <created>1679307621705</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1679307621705</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +546,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="UI_automation_with_Selenium" />
                       </list>
                     </value>
                   </entry>
@@ -560,7 +559,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changes to pageObject" />
     <MESSAGE value="added method to PageObjectLoginPage.py&#10;imported module By, changed path to the elements user_login, User_password, enter" />
     <MESSAGE value="Added method &quot;click_on_enter_button&quot;" />
     <MESSAGE value="Added methods to the test page" />
@@ -585,6 +583,7 @@
     <MESSAGE value="Removed pass and login to the separate file&#10;added annotations to the methods with self&#10;added annotations to the init&#10;changed method names&#10;removed locators to the separate files&#10;removed variables" />
     <MESSAGE value="changed files with locators&#10;change import in test &#10;changed locator&#10;remove tests to the test folder" />
     <MESSAGE value="added .idea to gitignore&#10;changed browser annotations&#10;made browser as private variable in all classes&#10;changed annotation for the method which returns string" />
-    <option name="LAST_COMMIT_MESSAGE" value="added .idea to gitignore&#10;changed browser annotations&#10;made browser as private variable in all classes&#10;changed annotation for the method which returns string" />
+    <MESSAGE value="moved locators from the test page to the po page" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved locators from the test page to the po page" />
   </component>
 </project>
