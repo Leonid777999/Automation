@@ -12,7 +12,8 @@ def test_exercise(app):
     assert "Осторожно мошенники!" in app.mailbox_page.get_titles_by_findelements()
 
     # open specific email and check the fields "subject", "from", "to"
-    app.mailbox_page.open_email()
+    # app.mailbox_page.open_email() - > open specific email using find_element and locator as parameter inside method
+    app.mailbox_page.open_mail_with_findelements("Осторожно мошенники!")
     assert "Осторожно мошенники!" == app.current_email.get_email_subject()
     assert "support@i.ua" == app.current_email.get_email_sender()
     assert "Automate <automate@i.ua>" == app.current_email.get_email_receiver()
