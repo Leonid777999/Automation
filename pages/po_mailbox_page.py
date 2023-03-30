@@ -19,17 +19,17 @@ class MailBox(BaseClass):
     def get_second_mail_title(self) -> str:
         return self.get_text(MailBoxLocators.EMAIL_SECOND)
 
-    def get_titles_by_findelements(self) -> Generator:
+    def get_titles(self) -> Generator:
         return (element.text for element in self.find_elements(MailBoxLocators.MESSAGE_LIST))
 
-    def open_email(self) -> CurrentEmail:
-        self.click_button(MailBoxLocators.EMAIL_ROW_TO_OPEN)
-        return CurrentEmail(self.__browser)
+    #def open_email(self) -> CurrentEmail:
+    #    self.click_button(MailBoxLocators.EMAIL_ROW_TO_OPEN)
+    #   return CurrentEmail(self.__browser)
 
-    def open_mail_with_findelements(self, title) -> CurrentEmail:
+    def open_mail(self, title) -> CurrentEmail:
         elements = {element.text: element for element in self.find_elements(MailBoxLocators.MESSAGE_LIST)}
         return elements[title].click()
 
-    # def get_titles_secondvariant(self):
+    #def get_titles_secondvariant(self):
     #   return self.get_text(element): for element in self.find_elements(MailBoxLocators.MESSAGE_LIST)
 

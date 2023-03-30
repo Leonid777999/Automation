@@ -21,7 +21,7 @@ class NewEmail(BaseClass):
         return self.fill_the_field(NewEmailLocators.FIELD_TEXT, text)
 
     def click_send_mail_button(self) -> NewEmail:
-        return self.click_button(NewEmailLocators.SEND_MAIL_BUTTON)
+        return self.click(NewEmailLocators.SEND_MAIL_BUTTON)
 
     def create_new_mail(self, receiver: str, subject: str, text: str) -> MailStatus:
         self.fill_the_receiver_field(receiver)

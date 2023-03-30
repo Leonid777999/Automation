@@ -9,11 +9,11 @@ def test_exercise(app):
     assert "Рекомендации по безопасности Вашего аккаунта" == app.mailbox_page.get_second_mail_title()
 
     # get title of mails using find elements
-    assert "Осторожно мошенники!" in app.mailbox_page.get_titles_by_findelements()
+    assert "Осторожно мошенники!" in app.mailbox_page.get_titles()
 
     # open specific email and check the fields "subject", "from", "to"
     # app.mailbox_page.open_email() - > open specific email using find_element and locator as parameter inside method
-    app.mailbox_page.open_mail_with_findelements("Осторожно мошенники!")
+    app.mailbox_page.open_mail("Осторожно мошенники!")
     assert "Осторожно мошенники!" == app.current_email.get_email_subject()
     assert "support@i.ua" == app.current_email.get_email_sender()
     assert "Automate <automate@i.ua>" == app.current_email.get_email_receiver()

@@ -21,5 +21,5 @@ class CurrentEmail(BaseClass):
         return self.get_text(CurrentMailLocators.EMAIL_RECEIVER)
 
     def goto_create_new_mail(self) -> NewEmail:
-        self.click_button(CurrentMailLocators.CREATE_NEW_MAIL_BUTTON)
+        self.click(CurrentMailLocators.CREATE_NEW_MAIL_BUTTON)
         return NewEmail(self.__browser)

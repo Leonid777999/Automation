@@ -13,7 +13,7 @@ class MailStatus(BaseClass):
         self.__browser = browser
 
     def open_sent_mails_folder(self) -> SentMailFolder:
-        self.click_button(MailStatusLocators.SENT_MAILS_FOLDER_BUTTON)
+        self.click(MailStatusLocators.SENT_MAILS_FOLDER_BUTTON)
         return SentMailFolder(self.__browser)
 
 

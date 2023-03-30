@@ -18,7 +18,7 @@ class LoginPage(BaseClass):
         return self.fill_the_field(LoginPageLocators.USER_PASSWORD, passwd)
 
     def click_enter_button(self) -> LoginPage:
-        return self.click_button(LoginPageLocators.ENTER_BUTTON)
+        return self.click(LoginPageLocators.ENTER_BUTTON)
 
     def sign_in(self, login: str, passwd: str) -> MailBox:
         self.enter_login(login)

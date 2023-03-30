@@ -1,5 +1,8 @@
 from __future__ import annotations
+
+
 from selenium import webdriver
+from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -10,16 +13,30 @@ class BaseClass:
         self.__browser = browser
         self.wait = WebDriverWait(self.__browser, 20)
 
-    def get_text(self, position) -> str:
-        return self.wait.until(EC.presence_of_element_located(position)).text
+    def get_text(self, element) -> str:
+        if isinstance(element, tuple):
+            element = self.find_element(element)
+        else:
+            element = self.wait.until(EC.presence_of_element_located(element))
+        return element.text
 
-    def click_button(self, button) -> BaseClass:
-        self.wait.until(EC.presence_of_element_located(button)).click()
-        return self
+    def click(self, element):    # what type is returned?
+        if isinstance(element, tuple):
+            element = self.find_element(element)
+        else:
+            element = self.wait.until(EC.visibility_of_element_located(element))
+        return element.click()
 
-    def fill_the_field(self, field, text: str) -> BaseClass:
-        self.wait.until(EC.presence_of_element_located(field)).send_keys(text)
-        return self
+    def fill_the_field(self, element, text):
+        if isinstance(element, tuple):
+            element = self.find_element(element)
+        else:
+            element = self.wait.until(EC.visibility_of_element_located(element))
+        return element.send_keys(text)
 
-    def find_elements(self, locator) -> list:
-        return self.wait.until(EC.visibility_of_all_elements_located(locator))
+    def find_elements(self, element) -> list:
+        return self.wait.until(EC.visibility_of_all_elements_located(element))
+
+    def find_element(self, element) -> WebElement:
+        return self.wait.until(EC.visibility_of_element_located(element))
+
