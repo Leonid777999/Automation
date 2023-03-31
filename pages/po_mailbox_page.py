@@ -22,9 +22,6 @@ class MailBox(BaseClass):
     def get_titles(self) -> Generator:
         return (element.text for element in self.find_elements(MailBoxLocators.MESSAGE_LIST))
 
-    #def open_email(self) -> CurrentEmail:
-    #    self.click_button(MailBoxLocators.EMAIL_ROW_TO_OPEN)
-    #   return CurrentEmail(self.__browser)
 
     def open_mail(self, title) -> CurrentEmail:
         elements = {element.text: element for element in self.find_elements(MailBoxLocators.MESSAGE_LIST)}

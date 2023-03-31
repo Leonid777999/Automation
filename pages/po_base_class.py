@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from _ctypes import Union
+from typing import Union
 
 from selenium import webdriver
 from selenium.webdriver.remote.webelement import WebElement
@@ -21,19 +21,21 @@ class BaseClass:
             element = self.wait.until(EC.presence_of_element_located(element))
         return element.text
 
-    def click(self, element: Union[tuple, WebElement]):    # what type is returned?
+    def click(self, element: Union[tuple, WebElement]) -> BaseClass:
         if isinstance(element, tuple):
             element = self.find_element(element)
         else:
             element = self.wait.until(EC.visibility_of_element_located(element))
-        return element.click()
+        element.click()
+        return self
 
-    def fill_the_field(self, element: Union[tuple, WebElement], text):
+    def fill_the_field(self, element: Union[tuple, WebElement], text) -> BaseClass:
         if isinstance(element, tuple):
             element = self.find_element(element)
         else:
             element = self.wait.until(EC.visibility_of_element_located(element))
-        return element.send_keys(text)
+        element.send_keys(text)
+        return self
 
     def find_elements(self, element) -> list:
         return self.wait.until(EC.visibility_of_all_elements_located(element))
