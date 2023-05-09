@@ -10,9 +10,11 @@ class App:
 
     URL = "https://www.i.ua/"
 
-    def __init__(self):
+    def __init__(self, headless=False):
 
         self.__browser = webdriver.Chrome()
+        #if headless
+
 
         self.login_page = LoginPage(self.__browser)
         self.mailbox_page = MailBox(self.__browser)
