@@ -11,7 +11,9 @@ class App:
     URL = "https://www.i.ua/"
 
     def __init__(self, browser):
-        self.__browser = browser
+
+
+
 
         self.login_page = LoginPage(self.__browser)
         self.mailbox_page = MailBox(self.__browser)
@@ -20,18 +22,10 @@ class App:
         self.send_status = MailStatus(self.__browser)
         self.sent_mail = SentMailFolder(self.__browser)
 
-    def browser(self, browser):
-
-        if browser == "Chrome".lower():
-            self.__browser = webdriver.Chrome()
-        else:
-            self.__browser = webdriver.Firefox()
-
-
 
 
     def open(self):
-        self.__browser.get(self.URL)
+       self.__browser.get(self.URL)
 
     def close(self):
         self.__browser.quit()
