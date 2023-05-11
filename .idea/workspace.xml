@@ -61,28 +61,7 @@
       <recent name="$PROJECT_DIR$/First task" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.po_mailbox_page">
-    <configuration name="Comprehension list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Automation22" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Comprehension list.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests for po_test_page.test_exercise">
     <configuration name="Regular expressions with the text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation22" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,13 +146,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for po_test_page.test_exercise" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Automation22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;po_test_page.test_exercise&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for po_test_page.test_exercise" />
         <item itemvalue="Python.po_mailbox_page" />
         <item itemvalue="Python.automate_scenario" />
         <item itemvalue="Python.Regular expressions with the text" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.Comprehension list" />
       </list>
     </recent_temporary>
   </component>
@@ -188,13 +181,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672847058063</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Added new way of representing object content in the 6 task">
-      <created>1674656523813</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1674656523813</updated>
     </task>
     <task id="LOCAL-00023" summary="Changed name of static variable in &quot;classes and add static variable in &quot;Inheritance&quot;">
       <created>1674658885859</created>
@@ -532,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679307621705</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="moved locators from the test page to the po page">
+      <created>1683642114990</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1683642114990</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

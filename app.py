@@ -13,7 +13,8 @@ class App:
     def __init__(self, headless=False):
 
         self.__browser = webdriver.Chrome()
-        #if headless
+        #if headless == "--headless":
+
 
 
         self.login_page = LoginPage(self.__browser)

@@ -10,4 +10,4 @@ def app(request):
     app.close()
 
 def pytest_addoption(parser):
-    parser.addoption("--headless", action = 'store', help='run browser', default='f')
+    parser.addoption("--headless", action='store', help='run browser', default='f')
