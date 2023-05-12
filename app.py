@@ -10,12 +10,12 @@ class App:
 
     URL = "https://www.i.ua/"
 
-    def __init__(self, browser, headless=False):
+    def __init__(self, browser: str, headless=False):
 
-        b_type = browser.lower()
-        if b_type == "firefox":
+        browser_type = browser.lower()
+        if browser_type == "firefox":
             self.__browser = webdriver.Firefox()
-        elif b_type == "chrome":
+        elif browser_type == "chrome":
             self.__browser = webdriver.Chrome()
         else:
             self.__browser = webdriver.Chrome()
