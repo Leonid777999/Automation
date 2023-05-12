@@ -4,9 +4,7 @@
     <list default="true" id="5dba22aa-29e4-415b-871a-0f7103a0d0f9" name="Changes" comment="moved locators from the test page to the po page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first task/automate_scenario.py" beforeDir="false" afterPath="$PROJECT_DIR$/first task/automate_scenario.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/po_test_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/po_test_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
       <recent name="$PROJECT_DIR$/First task" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.453534">
+  <component name="RunManager" selected="Python tests.Python tests for po_test_page.test_exercise">
     <configuration name="453534" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation22" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,8 +162,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.453534" />
         <item itemvalue="Python tests.Python tests for po_test_page.test_exercise" />
+        <item itemvalue="Python.453534" />
         <item itemvalue="Python.po_mailbox_page" />
         <item itemvalue="Python.automate_scenario" />
         <item itemvalue="Python.Regular expressions with the text" />

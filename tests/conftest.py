@@ -4,7 +4,7 @@ from app import App
 
 @pytest.fixture(scope="session")
 def app():
-    app = App("Firefox")
+    app = App("firefox")
     app.open()
     yield app
     app.close()

@@ -12,6 +12,15 @@ class App:
 
     def __init__(self, browser):
 
+        browser.lower()
+        if browser == "firefox":
+            self.__browser = webdriver.Firefox()
+        elif browser == "chrome":
+            self.__browser = webdriver.Chrome()
+        else:
+            self.__browser = webdriver.Chrome()
+
+
 
 
 
@@ -29,3 +38,6 @@ class App:
 
     def close(self):
         self.__browser.quit()
+
+
+
