@@ -182,13 +182,6 @@
       <option name="presentableId" value="Default" />
       <updated>1672847058063</updated>
     </task>
-    <task id="LOCAL-00023" summary="Changed name of static variable in &quot;classes and add static variable in &quot;Inheritance&quot;">
-      <created>1674658885859</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1674658885859</updated>
-    </task>
     <task id="LOCAL-00024" summary="Changed a little parent class and added first and second task to the Inheritance page">
       <created>1675105292881</created>
       <option name="number" value="00024" />
@@ -525,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683490057372</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="moved locators from the test page to the po page">
+      <created>1683895091811</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1683895091811</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

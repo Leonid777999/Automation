@@ -12,10 +12,10 @@ class App:
 
     def __init__(self, browser):
 
-        browser.lower()
-        if browser == "firefox":
+        b_type = browser.lower()
+        if b_type == "firefox":
             self.__browser = webdriver.Firefox()
-        elif browser == "chrome":
+        elif b_type == "chrome":
             self.__browser = webdriver.Chrome()
         else:
             self.__browser = webdriver.Chrome()
