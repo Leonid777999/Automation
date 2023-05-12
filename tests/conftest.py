@@ -11,7 +11,7 @@ def app():
 
 def pytest_addoption(parser):
     parser.addoption("--browser")
-    parser.addoption("--headless")
+    parser.addoption("--headless", action='store')
 @pytest.fixture(scope="session")
 def browser(request):
     return request.config.getoption("--browser")
