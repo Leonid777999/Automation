@@ -10,7 +10,7 @@ class App:
 
     URL = "https://www.i.ua/"
 
-    def __init__(self, browser):
+    def __init__(self, browser, headless=False):
 
         b_type = browser.lower()
         if b_type == "firefox":
