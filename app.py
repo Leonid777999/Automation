@@ -6,9 +6,12 @@ from pages.po_mail_status_page import MailStatus
 from pages.sent_mail_folder import SentMailFolder
 
 
+
 class App:
 
     URL = "https://www.i.ua/"
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_argument("headless")
 
     def __init__(self, browser: str, headless=False):
 
@@ -16,9 +19,9 @@ class App:
         if browser_type == "firefox":
             self.__browser = webdriver.Firefox()
         elif browser_type == "chrome":
-            self.__browser = webdriver.Chrome()
+            self.__browser = webdriver.Chrome(options=self.chrome_options)
         else:
-            self.__browser = webdriver.Chrome()
+            self.__browser = webdriver.Chrome(options=self.chrome_options)
 
 
 

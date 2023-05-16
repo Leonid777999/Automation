@@ -182,13 +182,6 @@
       <option name="presentableId" value="Default" />
       <updated>1672847058063</updated>
     </task>
-    <task id="LOCAL-00025" summary="Added 4 and 5 task to the Inheritance section">
-      <created>1675181239774</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1675181239774</updated>
-    </task>
     <task id="LOCAL-00026" summary="Added new file  Encapsulation">
       <created>1675181577945</created>
       <option name="number" value="00026" />
@@ -525,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683901535289</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="moved locators from the test page to the po page">
+      <created>1683903788768</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1683903788768</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

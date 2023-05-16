@@ -16,3 +16,4 @@ def pytest_addoption(parser):
 def browser(request):
     return request.config.getoption("--browser")
 
+
