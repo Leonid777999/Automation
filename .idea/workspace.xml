@@ -21,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="UI_automation_with_Selenium" />
+        <entry key="$PROJECT_DIR$" value="Factory_for_Chrome/Firefox" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -163,10 +163,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests for po_test_page.test_exercise" />
-        <item itemvalue="Python.453534" />
+        <item itemvalue="Python.Regular expressions with the text" />
         <item itemvalue="Python.po_mailbox_page" />
         <item itemvalue="Python.automate_scenario" />
-        <item itemvalue="Python.Regular expressions with the text" />
+        <item itemvalue="Python.453534" />
       </list>
     </recent_temporary>
   </component>
