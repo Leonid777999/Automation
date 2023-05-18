@@ -31,3 +31,4 @@ class App:
 
     def close(self):
         self.__browser.quit()
+
