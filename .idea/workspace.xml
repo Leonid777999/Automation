@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5dba22aa-29e4-415b-871a-0f7103a0d0f9" name="Changes" comment="moved locators from the test page to the po page">
+    <list default="true" id="5dba22aa-29e4-415b-871a-0f7103a0d0f9" name="Changes" comment="Made available to run headless browser from extra command-line argument">
+      <change beforePath="$PROJECT_DIR$/.idea/Automation22.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Automation22.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,13 +182,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672847058063</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Added new file  Encapsulation">
-      <created>1675181577945</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1675181577945</updated>
     </task>
     <task id="LOCAL-00027" summary="Add first task to the Encapsulation section">
       <created>1675185770235</created>
@@ -525,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683903788768</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Made available to run headless browser from extra command-line argument">
+      <created>1684423493895</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1684423493895</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -552,7 +553,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added method to PageObjectLoginPage.py&#10;imported module By, changed path to the elements user_login, User_password, enter" />
     <MESSAGE value="Added method &quot;click_on_enter_button&quot;" />
     <MESSAGE value="Added methods to the test page" />
     <MESSAGE value="Move base class to the Pages folder" />
@@ -577,6 +577,7 @@
     <MESSAGE value="changed files with locators&#10;change import in test &#10;changed locator&#10;remove tests to the test folder" />
     <MESSAGE value="added .idea to gitignore&#10;changed browser annotations&#10;made browser as private variable in all classes&#10;changed annotation for the method which returns string" />
     <MESSAGE value="moved locators from the test page to the po page" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved locators from the test page to the po page" />
+    <MESSAGE value="Made available to run headless browser from extra command-line argument" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made available to run headless browser from extra command-line argument" />
   </component>
 </project>
