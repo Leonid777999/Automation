@@ -4,11 +4,16 @@ from app import App
 
 @pytest.fixture(scope="session")
 def app(request):
-    app = App(request.config.getoption("--headless"))
+    app = App('Chrome',request.config.getoption("--browser"))
     app.open()
     yield app
     app.close()
 
-
 def pytest_addoption(parser):
-    parser.addoption("--headless", action='store', help='run browser', default='f')
+    parser.addoption("--browser", action='store', help='run selected browser', default='chrome')
+    parser.addoption("--headless", action='store', help='run headless browser', default='f')
+@pytest.fixture(scope="session")
+def browser(request):
+    return request.config.getoption("--browser")
+
+

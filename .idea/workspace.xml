@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5dba22aa-29e4-415b-871a-0f7103a0d0f9" name="Changes" comment="moved locators from the test page to the po page">
+    <list default="true" id="5dba22aa-29e4-415b-871a-0f7103a0d0f9" name="Changes" comment="Made available to run headless browser from extra command-line argument">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Factory_for_Chrome/Path_to_headless" />
+        <entry key="$PROJECT_DIR$" value="Factory_for_Chrome/Firefox" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,6 +63,27 @@
     </key>
   </component>
   <component name="RunManager" selected="Python tests.Python tests for po_test_page.test_exercise">
+    <configuration name="453534" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Automation22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/first task" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first task/453534.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Regular expressions with the text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation22" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,27 +118,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/First task/automate_scenario.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Automation22" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,10 +164,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests for po_test_page.test_exercise" />
+        <item itemvalue="Python.Regular expressions with the text" />
         <item itemvalue="Python.po_mailbox_page" />
         <item itemvalue="Python.automate_scenario" />
-        <item itemvalue="Python.Regular expressions with the text" />
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.453534" />
       </list>
     </recent_temporary>
   </component>
@@ -181,41 +182,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672847058063</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Added 4 and 5 task to the Inheritance section">
-      <created>1675181239774</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1675181239774</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Added new file  Encapsulation">
-      <created>1675181577945</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1675181577945</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Add first task to the Encapsulation section">
-      <created>1675185770235</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1675185770235</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Added second task to the Encapsulation section">
-      <created>1675275014814</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1675275014814</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Added third task to the Encapsulation section">
-      <created>1675275237080</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1675275237080</updated>
     </task>
     <task id="LOCAL-00030" summary="Added first task to the polymorphism section">
       <created>1675357067868</created>
@@ -505,27 +471,62 @@
       <updated>1679307621705</updated>
     </task>
     <task id="LOCAL-00071" summary="moved locators from the test page to the po page">
-      <created>1683642114990</created>
+      <created>1683490057372</created>
       <option name="number" value="00071" />
       <option name="presentableId" value="LOCAL-00071" />
       <option name="project" value="LOCAL" />
-      <updated>1683642114990</updated>
+      <updated>1683490057372</updated>
     </task>
     <task id="LOCAL-00072" summary="moved locators from the test page to the po page">
-      <created>1684250418511</created>
+      <created>1683895091811</created>
       <option name="number" value="00072" />
       <option name="presentableId" value="LOCAL-00072" />
       <option name="project" value="LOCAL" />
-      <updated>1684250418511</updated>
+      <updated>1683895091811</updated>
     </task>
     <task id="LOCAL-00073" summary="moved locators from the test page to the po page">
-      <created>1684310370265</created>
+      <created>1683901535289</created>
       <option name="number" value="00073" />
       <option name="presentableId" value="LOCAL-00073" />
       <option name="project" value="LOCAL" />
-      <updated>1684310370265</updated>
+      <updated>1683901535289</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="moved locators from the test page to the po page">
+      <created>1683903788768</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1683903788768</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Made available to run headless browser from extra command-line argument">
+      <created>1684423493895</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1684423493895</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Made available to run headless browser from extra command-line argument">
+      <created>1684747268499</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1684747268499</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Made available to run headless browser from extra command-line argument">
+      <created>1684836719161</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1684836719161</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Made available to run headless browser from extra command-line argument">
+      <created>1684836805089</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1684836805089</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -552,7 +553,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added method to PageObjectLoginPage.py&#10;imported module By, changed path to the elements user_login, User_password, enter" />
     <MESSAGE value="Added method &quot;click_on_enter_button&quot;" />
     <MESSAGE value="Added methods to the test page" />
     <MESSAGE value="Move base class to the Pages folder" />
@@ -577,6 +577,7 @@
     <MESSAGE value="changed files with locators&#10;change import in test &#10;changed locator&#10;remove tests to the test folder" />
     <MESSAGE value="added .idea to gitignore&#10;changed browser annotations&#10;made browser as private variable in all classes&#10;changed annotation for the method which returns string" />
     <MESSAGE value="moved locators from the test page to the po page" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved locators from the test page to the po page" />
+    <MESSAGE value="Made available to run headless browser from extra command-line argument" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made available to run headless browser from extra command-line argument" />
   </component>
 </project>

@@ -3,6 +3,8 @@ from constants import credentials
 
 def test_exercise(app):
 
+
+
     # login to the mailbox and get titles of two letters
     app.login_page.sign_in(credentials.USER_LOGIN, credentials.USER_PASS)
     assert "Осторожно мошенники!" == app.mailbox_page.get_first_mail_title()

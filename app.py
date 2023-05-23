@@ -6,22 +6,30 @@ from pages.po_mail_status_page import MailStatus
 from pages.sent_mail_folder import SentMailFolder
 
 
+
 class App:
 
     URL = "https://www.i.ua/"
 
-    def __init__(self, headless=False):
+    def __init__(self, browser: str, headless=False):
 
-        if headless == "headless":
-        #    chrome_options = webdriver.ChromeOptions()
-        #    chrome_options.add_argument('--headless')
-        #    self.__browser = webdriver.Chrome(options=chrome_options)
-            firefox_options = webdriver.FirefoxOptions()
-            firefox_options.add_argument('--headless')
-            self.__browser = webdriver.Firefox(options=firefox_options)
+        browser_type = browser.lower()
+        if browser_type == 'firefox':
+            if headless == 'headless':
+                firefox_options = webdriver.FirefoxOptions()
+                firefox_options.add_argument('--headless')
+                self.__browser = webdriver.Firefox(options=firefox_options)
+            else:
+                self.__browser = webdriver.Firefox()
+        elif browser_type == 'chrome':
+            if headless == 'headless':
+                chrome_options = webdriver.ChromeOptions()
+                chrome_options.add_argument('--headless')
+                self.__browser = webdriver.Chrome(options=chrome_options)
+            else:
+                self.__browser = webdriver.Chrome()
         else:
-        #    self.__browser = webdriver.Chrome()
-            self.__browser = webdriver.Firefox()
+            self.__browser = webdriver.Chrome()
 
         self.login_page = LoginPage(self.__browser)
         self.mailbox_page = MailBox(self.__browser)
