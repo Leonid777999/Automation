@@ -12,14 +12,14 @@ class App:
     URL = "https://www.i.ua/"
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_argument('headless')
-    firefox_options = webdriver.FirefoxOptions()
-    firefox_options.add_argument('headless')
 
     def __init__(self, browser: str, headless=False):
 
         browser_type = browser.lower()
         if browser_type == 'firefox':
             if headless == 'headless':
+                firefox_options = webdriver.FirefoxOptions()
+                firefox_options.add_argument('headless')
                 self.__browser = webdriver.Firefox(options=self.firefox_options)
             else:
                 self.__browser = webdriver.Firefox()

@@ -3393,3 +3393,67 @@ JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error:
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1684832872818	geckodriver	INFO	Listening on 127.0.0.1:51662
+1684832873334	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0q/m6fbsmq146lffbcc590dy1800000gp/T/rust_mozprofilejFihHU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684832873755	Marionette	INFO	Marionette enabled
+1684832873870	Marionette	INFO	Listening on port 51670
+2023-05-23 12:07:53.895 plugin-container[50408:866975] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-23 12:07:53.895 plugin-container[50408:866975] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-23 12:07:53.899 plugin-container[50408:866975] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-23 12:07:53.899 plugin-container[50408:866975] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-23 12:07:53.900 plugin-container[50408:866980] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-23 12:07:53.900 plugin-container[50408:866980] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:51663
+Read port: 51670
+1684832874139	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51663/devtools/browser/87a55366-ceb2-4af9-902d-75e0db41cc1d
+JavaScript warning: https://cdn.umh.ua/libs/e.js, line 257: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.umh.ua/libs/vast/vast-player/vast-player.js, line 5229: Error: [] is not a valid VAST document.
+2023-05-23 09:07:56.375 plugin-container[50426:867502] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-23 09:07:56.375 plugin-container[50426:867502] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-23 09:07:56.379 plugin-container[50426:867502] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-23 09:07:56.379 plugin-container[50426:867502] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-05-23 09:07:56.379 plugin-container[50426:867507] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-05-23 09:07:56.379 plugin-container[50426:867507] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.i.ua."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.i.ua."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://cdn.umh.ua/libs/e.js, line 257: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.umh.ua/libs/vast/vast-player/vast-player.js, line 5229: Error: [] is not a valid VAST document.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mbox2.i.ua."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/s8ditO9N4rSA5jD8b4OXvNFpy85WvJIvPV3ceacow88.js line 2 > eval line 1823 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://cdn.umh.ua/libs/e.js, line 257: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/s8ditO9N4rSA5jD8b4OXvNFpy85WvJIvPV3ceacow88.js line 2 > eval line 6434 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/s8ditO9N4rSA5jD8b4OXvNFpy85WvJIvPV3ceacow88.js line 2 > eval line 1123 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/s8ditO9N4rSA5jD8b4OXvNFpy85WvJIvPV3ceacow88.js line 2 > eval line 6423 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://i3.i.ua/js/i/richtextmulti2201_v2.y3551048b.js, line 462: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://cdn.umh.ua/libs/e.js, line 257: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/s8ditO9N4rSA5jD8b4OXvNFpy85WvJIvPV3ceacow88.js line 2 > eval line 6103 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.umh.ua/libs/e.js, line 257: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.umh.ua/libs/e.js, line 257: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.umh.ua/libs/vast/vast-player/vast-player.js, line 5229: Error: [] is not a valid VAST document.
+1684832955245	Marionette	INFO	Stopped listening on port 51670
+[Child 50410, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 50410, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 50410, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 50410, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 50410, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 50410, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 50410, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 50410, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
