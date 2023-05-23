@@ -11,17 +11,16 @@ class App:
 
     URL = "https://www.i.ua/"
 
-    def __init__(self, browser: str, headless=False):
+    def __init__(self, browser=False, headless=False):
 
-        browser_type = browser.lower()
-        if browser_type == 'firefox':
+        if browser == 'firefox':
             if headless == 'headless':
                 firefox_options = webdriver.FirefoxOptions()
                 firefox_options.add_argument('--headless')
                 self.__browser = webdriver.Firefox(options=firefox_options)
             else:
                 self.__browser = webdriver.Firefox()
-        elif browser_type == 'chrome':
+        elif browser == 'chrome':
             if headless == 'headless':
                 chrome_options = webdriver.ChromeOptions()
                 chrome_options.add_argument('--headless')
@@ -29,6 +28,7 @@ class App:
             else:
                 self.__browser = webdriver.Chrome()
         else:
+            print('There is no such browser -Chrome will be used')
             self.__browser = webdriver.Chrome()
 
         self.login_page = LoginPage(self.__browser)
