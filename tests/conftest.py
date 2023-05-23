@@ -4,7 +4,7 @@ from app import App
 
 @pytest.fixture(scope="session")
 def app(request):
-    app = App('Firefox', request.config.getoption("--headless"))
+    app = App('Chrome',request.config.getoption("--browser"))
     app.open()
     yield app
     app.close()

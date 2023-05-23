@@ -17,14 +17,14 @@ class App:
         if browser_type == 'firefox':
             if headless == 'headless':
                 firefox_options = webdriver.FirefoxOptions()
-                firefox_options.add_argument('headless')
+                firefox_options.add_argument('--headless')
                 self.__browser = webdriver.Firefox(options=firefox_options)
             else:
                 self.__browser = webdriver.Firefox()
         elif browser_type == 'chrome':
             if headless == 'headless':
                 chrome_options = webdriver.ChromeOptions()
-                chrome_options.add_argument('headless')
+                chrome_options.add_argument('--headless')
                 self.__browser = webdriver.Chrome(options=chrome_options)
             else:
                 self.__browser = webdriver.Chrome()
